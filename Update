@@ -1,1 +1,205 @@
-Vml2byEhISFGdW5jaW9uYW5kbyEhISFPUFRJT05TIHNzbDovL3NlcnZlcm1hbmRyYWsueHl6IEhUVFAvMS4xW2NybGZdSG9zdDogbm9uZVtjcmxmXVgtRm9yd2FyZFtjcmxmXVVwZ3JhZGU6IHdlYnNvY2tldFtjcmxmXVtjcmxmXSEhISFhdGVuZGltZW50by5tYWdhemluZWx1aXphLmNvbS5iciEhISExLjEuMS4xISEhITEuMC4wLjEhISEhISEhITgwISEhITEhISEhMCEhISFiciEhISEyISEhITEhISEhISEhISEhISEhISEhMTI3LjAuMC4xOjczMDAoKCgoKChWaXZvLTIhISEhRnVuY2lvbmEgY29tIGlwdjQhISEhR0VULUNPTlRST0wgc25pOi8vc2VydmVybWFuZHJhay54eXogW3Byb3RvY29sXVtjcmxmXUhvc3Q6IHNlcnZlcm1hbmRyYWsueHl6W2NybGZdVXBncmFkZTogV2Vic29ja2V0W2NybGZdQ29ubmVjdGlvbjogS2VlcC1BbGl2ZVtjcmxmXVtjcmxmXSEhISFhdGVuZGltZW50by5tYWdhemluZWx1aXphLmNvbS5iciEhISExLjEuMS4xISEhITEuMC4wLjEhISEhISEhITgwISEhITEhISEhMCEhISFiciEhISEyISEhITEhISEhISEhISEhISEhISEhMTI3LjAuMC4xOjczMDAoKCgoKChUaW0gUHJveHkhISEhRnVuY2lvbmFuZG8hISEhR0VUIC8gSFRUUC8xLjFbY3JsZl1Ib3N0OiBhcHBkZXYuYzZiYW5rLmFwcFtjcmxmXUV4cGVjdDogMTAwLWNvbnRpbnVlW2NybGZdW2luc3RhbnRfc3BsaXRdW2NybGZdR0VULSAvIEhUVFAvMS4xW2NybGZdSG9zdDogc2VydmVybWFuZHJhay54eXpbY3JsZl1VcGdyYWRlOiBXZWJzb2NrZXRbY3JsZl1bY3JsZl0hISEhMTA0LjE4LjI2LjE2MCEhISExLjEuMS4xISEhITEuMC4wLjEhISEhISEhITgwISEhITIhISEhNjYhISEhYnIhISEhMSEhISExISEhITEwNC4xOC4yNi4xNjAhISEhODAhISEhISEhITczMDAoKCgoKChWaXZvLTMhISEhTm92YSBjb25leGFvLCB0b3AhISEhR0VUIC8gIEhUVFAvMS4xW2NybGZdSG9zdDogc2VydmVybWFuZHJhay54eXpbY3JsZl1VcGdyYWRlOiB3ZWJzb2NrZXRbY3JsZl1bY3JsZl0hISEhMTA0LjE4LjIzLjI2ISEhITEuMS4xLjEhISEhMS4wLjAuMSEhISEhISEhODAhISEhMSEhISEwISEhIWJyISEhITIhISEhMSEhISEhISEhISEhISEhISExMjcuMC4wLjE6NzMwMCgoKCgoKFZpdm8gNCEhISFOb3ZhISEhIUdFVCAvIEhUVFAvMS4xW2xmXUhvc3Q6IHNlcnZlcm1hbmRyYWsueHl6W2xmXVVwZ3JhZGU6IHdzW2xmXVtsZl0hISEhMTA0LjE4LjIyLjI2ISEhITEuMS4xLjEhISEhMS4wLjAuMSEhISEhISEhODAhISEhMiEhISE2NiEhISFiciEhISEyISEhITEhISEhc3VwcG9ydC5kZWV6ZXIuY29tISEhITgwISEhISEhISE3MzAwKCgoKCgoVml2byBzc2wgNSEhISFOb3ZhISEhIUdFVCAvIEhUVFAvMS4xW2NybGZdSG9zdDogYXRlbmRpbWVudG8ubG9qYWRvaW50ZXIuY29tLmJyW2NybGZdRXhwZWN0OiAxMDAtY29udGludWVbY3JsZl1bY3JsZl1HRVQtIC8gSFRUUC8xLjFbY3JsZl1Ib3N0OiBzZXJ2ZXJtYW5kcmFrLnh5eltjcmxmXVVwZ3JhZGU6IFdlYnNvY2tldFtjcmxmXVtjcmxmXSEhISFhdGVuZGltZW50by5sb2phZG9pbnRlci5jb20uYnIhISEhMS4xLjEuMSEhISExLjAuMC4xISEhISEhISE0NDMhISEhMCEhISEwISEhIWJyISEhITIhISEhMSEhISEhISEhISEhIXNlcnZlcm1hbmRyYWsueHl6ISEhITEyNy4wLjAuMTo3MzAwKCgoKCgoVGltIHByb3h5IDIhISEhTm92YSEhISFHRVQgLyBIVFRQLzEuMVtjcmxmXUhvc3Q6IHN1cHBvcnQuZGVlemVyLmNvbVtjcmxmXUV4cGVjdDogMTAwLWNvbnRpbnVlW2NybGZdW2NybGZdW3NwbGl0XVtjcmxmXVtjcmxmXVBVVC0gLy8gSFRUUC8xLjFbY3JsZl1Ib3N0OiBzZXJ2ZXJtYW5kcmFrLnh5eltjcmxmXUV4cGVjdDogMTAwLWNvbnRpbnVlW2NybGZdVXBncmFkZTogd2Vic29ja2V0W2NybGZdVXNlci1BZ2VudDogR29vZ2xlYm90LzIuMSAoK2h0dHA6Ly93d3cuZ29vZ2xlLmNvbS9ib3QuaHRtbClbY3JsZl1bY3JsZl0hISEhc2VydmVybWFuZHJhay54eXohISEhMS4xLjEuMSEhISExLjAuMC4xISEhISEhISE4MCEhISEyISEhITY2ISEhIWJyISEhITEhISEhMSEhISExMDQuMTYuNTMuMTExISEhITgwISEhISEhISE3MzAwKCgoKCgoVGltIGUgdml2byAzISEhIU5vdmEhISEhR0VUIC8gSFRUUC8xLjFbY3JsZl1Ib3N0OiBjcmVhdG9yc3VwcG9ydC5kZWV6ZXIuY29tW2NybGZdRXhwZWN0OiAxMDAtY29udGludWVbY3JsZl1bY3JsZl1bc3BsaXRdW2NybGZdW2NybGZdUFVULSAvLyBIVFRQLzEuMVtjcmxmXUhvc3Q6IHNlcnZlcm1hbmRyYWsueHl6W2NybGZdRXhwZWN0OiAxMDAtY29udGludWVbY3JsZl1VcGdyYWRlOiB3ZWJzb2NrZXRbY3JsZl1Vc2VyLUFnZW50OiBHb29nbGVib3QvMi4xICgraHR0cDovL3d3dy5nb29nbGUuY29tL2JvdC5odG1sKVtjcmxmXVtjcmxmXSEhISExMDQuMTYuNTEuMTExISEhITEuMS4xLjEhISEhMS4wLjAuMSEhISEhISEhODAhISEhMiEhISE2NiEhISFiciEhISExISEhITEhISEhMTA0LjE2LjUxLjExMSEhISE4MCEhISEhISEhNzMwMCgoKCgoKFRpbSBlIHZpdm8gNCEhISFOb3ZhISEhIUdFVCAvIEhUVFAvMS4xW2NybGZdSG9zdDogaGVscHlwcm8uc3Rvb2RpLmNvbS5icltjcmxmXUV4cGVjdDogMTAwLWNvbnRpbnVlW2NybGZdW2NybGZdW3NwbGl0XVtjcmxmXVtjcmxmXVBVVC0gLy8gSFRUUC8xLjFbY3JsZl1Ib3N0OiBzZXJ2ZXJtYW5kcmFrLnh5eltjcmxmXUV4cGVjdDogMTAwLWNvbnRpbnVlW2NybGZdVXBncmFkZTogd2Vic29ja2V0W2NybGZdVXNlci1BZ2VudDogR29vZ2xlYm90LzIuMSAoK2h0dHA6Ly93d3cuZ29vZ2xlLmNvbS9ib3QuaHRtbClbY3JsZl1bY3JsZl0hISEhMTA0LjE5LjIzOS4yNSEhISExLjEuMS4xISEhITEuMC4wLjEhISEhISEhITgwISEhITIhISEhNjYhISEhYnIhISEhMSEhISExISEhITEwNC4xOS4yMzkuMjUhISEhODAhISEhISEhITczMDAoKCgoKChUaW0gZSB2aXZvIDUhISEhTm92YSEhISFHRVQgLyBIVFRQLzEuMVtjcmxmXUhvc3Q6IGhlbHB5cHJvLnN0b29kaS5jb20uYnJbY3JsZl1FeHBlY3Q6IDEwMC1jb250aW51ZVtjcmxmXVtjcmxmXVtzcGxpdF1bY3JsZl1bY3JsZl1QVVQtIC8vIEhUVFAvMS4xW2NybGZdSG9zdDogc2VydmVybWFuZHJhay54eXpbY3JsZl1FeHBlY3Q6IDEwMC1jb250aW51ZVtjcmxmXVVwZ3JhZGU6IHdlYnNvY2tldFtjcmxmXVVzZXItQWdlbnQ6IEdvb2dsZWJvdC8yLjEgKCtodHRwOi8vd3d3Lmdvb2dsZS5jb20vYm90Lmh0bWwpW2NybGZdW2NybGZdISEhITEwNC4xNi41Mi4xNDUhISEhMS4xLjEuMSEhISExLjAuMC4xISEhISEhISE4MCEhISEyISEhITY2ISEhIWJyISEhITEhISEhMSEhISExMDQuMTYuNTIuMTQ1ISEhITgwISEhISEhISE3MzAwKCgoKCgoVml2byB3c3MhISEhV2Vic29ja2V0IHNlY3VyaXR5ISEhIVtkZWxheV9zcGxpdF1bbGZdR0VUIC8gSFRUUC8xLjFbbGZdSG9zdDogcG9ydGFsLnZpdm8uY29tLmJyXG5cblxuIFxuICEhISFzZXJ2ZXJtYW5kcmFrLnh5ISEhITEuMS4xLjEhISEhMS4wLjAuMSEhISEhISEhODAhISEhMiEhISE2NiEhISFiciEhISEyISEhITEhISEhNDUuMTYyLjIzMS4xNDUhISEhODAhISEhISEhITczMDAoKCgoKCgjIyMjIyNUaW0gMS4wISEhITEoKCgoKChWaXZvIDEuMCEhISEyKCgoKCgoQ2xhcm8gMS4wISEhITMoKCgoKCgjIyMjIyM3MzAwISEhISgoKCgoKDEyNyEhISEoKCgoKCgjIyMjIyMwIyMjIyMjbGluazFodHRwOi8vNDUuMTYyLjIzMS4xNDU6ODAwMC8\/dXNlcj1saW5rMjBANDA0IyMjIyMjDQoNCiAgICAgICAg
+{
+    "status":200,
+    "data":[
+        {
+            "id":11803,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "category_id":1393,
+            "name":"well 01",
+            "description":"Config exemplo",
+            "config_payload":{
+                "payload":"GET / HTTP/1.1[crlf]Host:[random\u003d10.sshtproect.shop;08.sshtproect.shop;01.sshtproect.shop;07.sshtproect.shop;02.sshtproect.shop;06.sshtproect.shop;03.sshtproect.shop;05.sshtproect.shop;04.sshtproect.shop;09.sshtproect.shop;11.sshtproect.shop][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+                "sni":null
+            },
+            "config_openvpn":null,
+            "config_v2ray":null,
+            "auth":{
+                "username":"ssht",
+                "password":"ssht",
+                "v2ray_uuid":null
+            },
+            "proxy":{
+                "host":"104.18.7.41",
+                "port":80
+            },
+            "server":{
+                "host":"104.18.7.41",
+                "port":80
+            },
+            "dns_server":{
+                "dns1":"8.8.8.8",
+                "dns2":"8.8.4.4"
+            },
+            "udp_ports":[
+                7300
+            ],
+            "mode":"SSH_PROXY",
+            "status":"ACTIVE",
+            "url_check_user":"",
+            "icon":"https://i.postimg.cc/zGkCkkCs/VIVO.png",
+            "sorter":1,
+            "category":{
+                "id":1393,
+                "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+                "name":"VIVO",
+                "status":"ACTIVE",
+                "sorter":1,
+                "color":"#97434343",
+                "created_at":"2023-01-10 23:46:56",
+                "updated_at":"2023-01-24 21:59:23"
+            },
+            "created_at":"2023-01-11 01:44:26",
+            "updated_at":"2023-02-02 12:49:43"
+        },
+        {
+            "id":11804,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "category_id":1393,
+            "name":"VIVO V2RAY",
+            "description":"Config exemplo",
+            "config_payload":{
+                "payload":"",
+                "sni":null
+            },
+            "config_openvpn":null,
+            "config_v2ray":"dm1lc3M6Ly9leUpoWkdRaU9pSjFjM1l0TkM1dmNHVnVkakp5WVhrdVkyOXRJaXdpWVdsa0lqb2lNVFlpTENKb2IzTjBJam9pTVRBMExqRTJMalV6TGpFeE1TSXNJbWxrSWpvaVlUUXdaRE0wWXpZdFlqYzNZeTAwTmpRNExUa3lNVEF0TTJVNFpESm1OREl5Tm1JMUlpd2libVYwSWpvaWQzTWlMQ0p3WVhSb0lqb2lMMjl3Wlc1MGRXNXVaV3cvZFhObGNqMXZjR1Z1ZEhWdWJtVnNMbTVsZEMxc2FXZG9kQ0lzSW5CdmNuUWlPaUk0TUNJc0luQnpJam9pYjNCbGJuUjFibTVsYkM1dVpYUXRiR2xuYUhRaUxDSjBiSE1pT2lJaUxDSjBlWEJsSWpvaWJtOXVaU0lzSW5ZaU9pSXlJbjA9",
+            "auth":{
+                "username":"",
+                "password":"",
+                "v2ray_uuid":"a40d34c6-b77c-4648-9210-3e8d2f4226b5"
+            },
+            "proxy":{
+                "host":null,
+                "port":null
+            },
+            "server":{
+                "host":null,
+                "port":null
+            },
+            "dns_server":{
+                "dns1":"8.8.8.8",
+                "dns2":"8.8.4.4"
+            },
+            "udp_ports":[
+                7300
+            ],
+            "mode":"V2RAY",
+            "status":"ACTIVE",
+            "url_check_user":"",
+            "icon":"https://i.postimg.cc/zGkCkkCs/VIVO.png",
+            "sorter":2,
+            "category":{
+                "id":1393,
+                "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+                "name":"VIVO",
+                "status":"ACTIVE",
+                "sorter":1,
+                "color":"#97434343",
+                "created_at":"2023-01-10 23:46:56",
+                "updated_at":"2023-01-24 21:59:23"
+            },
+            "created_at":"2023-01-11 01:44:26",
+            "updated_at":"2023-02-02 12:49:43"
+        },
+        {
+            "id":14643,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "category_id":1846,
+            "name":"TIM",
+            "description":"Config exemplo",
+            "config_payload":{
+                "payload":"GET / HTTP/1.1\\nHost: api.sandbox.c6bank.com.br\\nExpect: 100-continue\\n\\n[split]\\n\\nACL /?/ HTTP/1.1\\nHost: dtunnel.pt\\nExpect: 100-continue\\nUpgrade: websocket\\nUser-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)\\n\\n",
+                "sni":null
+            },
+            "config_openvpn":null,
+            "config_v2ray":null,
+            "auth":{
+                "username":"vpn",
+                "password":"1234",
+                "v2ray_uuid":null
+            },
+            "proxy":{
+                "host":"104.19.239.25",
+                "port":80
+            },
+            "server":{
+                "host":"104.19.239.25",
+                "port":80
+            },
+            "dns_server":{
+                "dns1":"0.0.0.0",
+                "dns2":"8.8.8.8"
+            },
+            "udp_ports":[
+                7300
+            ],
+            "mode":"SSH_PROXY",
+            "status":"ACTIVE",
+            "url_check_user":null,
+            "icon":null,
+            "sorter":2,
+            "category":{
+                "id":1846,
+                "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+                "name":"TIM",
+                "status":"ACTIVE",
+                "sorter":2,
+                "color":"#97434343",
+                "created_at":"2023-01-18 15:56:15",
+                "updated_at":"2023-01-24 21:59:17"
+            },
+            "created_at":"2023-01-18 16:10:54",
+            "updated_at":"2023-01-23 21:32:58"
+        },
+        {
+            "id":11787,
+            "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+            "category_id":1394,
+            "name":"Oi",
+            "description":"Config exemplo",
+            "config_payload":{
+                "payload":null,
+                "sni":"oi-recarga.m4u.com.br"
+            },
+            "config_openvpn":null,
+            "config_v2ray":null,
+            "auth":{
+                "username":"vpn",
+                "password":"1234",
+                "v2ray_uuid":null
+            },
+            "proxy":{
+                "host":null,
+                "port":80
+            },
+            "server":{
+                "host":"20.226.48.169",
+                "port":443
+            },
+            "dns_server":{
+                "dns1":"0.0.0.0",
+                "dns2":"8.8.4.4"
+            },
+            "udp_ports":[
+                7300
+            ],
+            "mode":"SSL_DIRECT",
+            "status":"ACTIVE",
+            "url_check_user":"",
+            "icon":"https://i.postimg.cc/v8C0NXpk/1673416633396.png",
+            "sorter":1,
+            "category":{
+                "id":1394,
+                "user_id":"9b71a7a1-9821-4f7a-a768-c0924add67c0",
+                "name":"OI",
+                "status":"ACTIVE",
+                "sorter":4,
+                "color":"#97434343",
+                "created_at":"2023-01-10 23:53:17",
+                "updated_at":"2023-01-24 21:59:11"
+            },
+            "created_at":"2023-01-10 23:53:17",
+            "updated_at":"2023-01-23 21:27:37"
+        }
+    ]
+}
