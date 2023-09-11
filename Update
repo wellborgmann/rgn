@@ -220,11 +220,11 @@
                 "v2ray_uuid":null
             },
             "proxy":{
-                "host":"SEU_IP",
+                "host":"45.162.231.145",
                 "port":8080
             },
             "server":{
-                "host":"SEU_IP",
+                "host":"45.162.231.145",
                 "port":8080
             },
             "dns_server":{
