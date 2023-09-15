@@ -63,7 +63,7 @@
             "id":3812,
             "label":"Cor do card inicial",
             "name":"APP_CARD_COLOR",
-            "value":"#313131e6",
+            "value":"#c1c1c1",
             "type":"COLOR",
             "status":"ACTIVE",
             "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
