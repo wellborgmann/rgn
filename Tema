@@ -1,1 +1,198 @@
 
+{
+    "status":200,
+    "data":[
+        {
+            "id":3807,
+            "label":"Nome do app",
+            "name":"APP_NAME",
+            "value": null,
+            "type":"STRING",
+            "status":"INACTIVE",
+            "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "id":3808,
+            "label":"Logo do app",
+            "name":"APP_LOGO",
+            "value":null,
+            "type":"IMAGE",
+            "status":"INACTIVE",
+            "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "id":3809,
+            "label":"Imagem de fundo",
+            "name":"APP_BACKGROUND_IMAGE",
+            "value":"https://w0.peakpx.com/wallpaper/441/208/HD-wallpaper-light-yagami-kira-l-lawliet-god-of-death-anime-aesthetic-shinigami-ryuk-misa-amane-near-death-note.jpg",
+            "type":"IMAGE",
+            "status":"ACTIVE",
+            "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "id":3810,
+            "label":"Tipo do fundo do app",
+            "name":"APP_BACKGROUND_TYPE",
+            "value":{
+                "options":[
+                    {
+                        "label":"Imagem",
+                        "value":"IMAGE"
+                    },
+                    {
+                        "label":"Cor",
+                        "value":"COLOR"
+                    }
+                ],
+                "selected":"IMAGE"
+            },
+            "type":"SELECT",
+            "status":"ACTIVE",
+            "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "id":3811,
+            "label":"Cor de fundo",
+            "name":"APP_BACKGROUND_COLOR",
+            "value":"#000000e6",
+            "type":"COLOR",
+            "status":"ACTIVE",
+            "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "id":3812,
+            "label":"Cor do card inicial",
+            "name":"APP_CARD_COLOR",
+            "value":"#313131e6",
+            "type":"COLOR",
+            "status":"ACTIVE",
+            "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "id":3813,
+            "label":"Cor do card de configurações",
+            "name":"APP_CARD_CONFIG_COLOR",
+            "value":"#0000005b",
+            "type":"COLOR",
+            "status":"ACTIVE",
+            "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "id":3814,
+            "label":"Cor do fundo dos dialogs",
+            "name":"APP_DIALOG_BACKGROUND_COLOR",
+            "value":"#00000049",
+            "type":"COLOR",
+            "status":"ACTIVE",
+            "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "id":3815,
+            "label":"Cor das bordas",
+            "name":"APP_BORDER_COLOR",
+            "value":"#FF1400",
+            "type":"COLOR",
+            "status":"ACTIVE",
+            "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "id":3816,
+            "label":"Cor dos textos",
+            "name":"APP_TEXT_COLOR",
+            "value":"#FFFFFFFF",
+            "type":"COLOR",
+            "status":"ACTIVE",
+            "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "id":3817,
+            "label":"Cor dos botões",
+            "name":"APP_BUTTON_COLOR",
+            "value":"#FF1400",
+            "type":"COLOR",
+            "status":"ACTIVE",
+            "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "id":3818,
+            "label":"Cor dos icones",
+            "name":"APP_ICON_COLOR",
+            "value":"#FF1400",
+            "type":"COLOR",
+            "status":"ACTIVE",
+            "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "id":3819,
+            "label":"Exibir modo de conexão",
+            "name":"APP_SHOW_CONNECTION_MODE",
+            "value":true,
+            "type":"BOOLEAN",
+            "status":"ACTIVE",
+            "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "id":4922,
+            "label":"Iniciar o app automaticamente ao reiniciar o dispositivo",
+            "name":"APP_AUTO_START",
+            "value":false,
+            "type":"BOOLEAN",
+            "status":"ACTIVE",
+            "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "id":3820,
+            "label":"Mensagem",
+            "name":"APP_MESSAGE",
+            "value":null,
+            "type":"TEXT",
+            "status":"ACTIVE",
+            "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "id":3821,
+            "label":"Tipo de mensagem",
+            "name":"APP_MESSAGE_TYPE",
+            "value":{
+                "options":[
+                    {
+                        "label":"Alerta",
+                        "value":"ALERT"
+                    },
+                    {
+                        "label":"Informação",
+                        "value":"INFO"
+                    },
+                    {
+                        "label":"Boas vindas",
+                        "value":"WELCOME"
+                    },
+                    {
+                        "label":"Sem mensagem",
+                        "value":"NONE"
+                    }
+                ],
+                "selected":"ALERT"
+            },
+            "type":"SELECT",
+            "status":"ACTIVE",
+            "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "id":3823,
+            "label":"ANDROID WEBVIEW (POR SUA CONTA E RISCO)",
+            "name":"APP_SUPPORT_BUTTON",
+            "value":null,
+            "type":"HTML",
+            "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "id":3824,
+            "label":"PAGINA WEBVIEW (POR SUA CONTA E RISCO)",
+            "name":"APP_WEB_VIEW",
+            "type":"HTML",
+            "value":null,
+            "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
+        }
+    ]
+}
