@@ -108,7 +108,7 @@
             "id":3817,
             "label":"Cor dos botões",
             "name":"APP_BUTTON_COLOR",
-            "value":#8360aa",
+            "value": "#8360aa",
             "type":"COLOR",
             "status":"ACTIVE",
             "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
