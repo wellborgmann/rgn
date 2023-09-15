@@ -63,7 +63,7 @@
             "id":3812,
             "label":"Cor do card inicial",
             "name":"APP_CARD_COLOR",
-            "value":"#c1c1c1",
+            "value":"#8360aa",
             "type":"COLOR",
             "status":"ACTIVE",
             "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
@@ -72,7 +72,7 @@
             "id":3813,
             "label":"Cor do card de configurações",
             "name":"APP_CARD_CONFIG_COLOR",
-            "value":"#0000005b",
+            "value":"#8360aa",
             "type":"COLOR",
             "status":"ACTIVE",
             "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
@@ -108,7 +108,7 @@
             "id":3817,
             "label":"Cor dos botões",
             "name":"APP_BUTTON_COLOR",
-            "value":"#FF1400",
+            "value":#8360aa",
             "type":"COLOR",
             "status":"ACTIVE",
             "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
