@@ -4,7 +4,7 @@
     "data":[
         {
             "id":3807,
-            "label":"Nome do app",
+            "label":"Apollo404",
             "name":"APP_NAME",
             "value": null,
             "type":"STRING",
@@ -24,7 +24,7 @@
             "id":3809,
             "label":"Imagem de fundo",
             "name":"APP_BACKGROUND_IMAGE",
-            "value":"https://w0.peakpx.com/wallpaper/441/208/HD-wallpaper-light-yagami-kira-l-lawliet-god-of-death-anime-aesthetic-shinigami-ryuk-misa-amane-near-death-note.jpg",
+            "value":"https://e0.pxfuel.com/wallpapers/521/792/desktop-wallpaper-awesome-face-10-best-cool-android-1080-x-background.jpg",
             "type":"IMAGE",
             "status":"ACTIVE",
             "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
