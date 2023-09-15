@@ -4,8 +4,8 @@
     "data":[
         {
             "id":3807,
-            "label":"Apollo",
-            "name":"APP_NAME",
+            "label":"APP_NAME",
+            "name":"apollo",
             "value": null,
             "type":"STRING",
             "status":"INACTIVE",
