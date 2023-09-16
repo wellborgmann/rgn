@@ -1,30 +1,28 @@
-
-[
-        "server1" : {
-                "name" : "Tim",
-                "type" : "0",
-                "host" : "CONNECT / HTTP/1.9[crlf]host: pre-onboarding-h.c6bank.app[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: br91.tetsandooutro.online[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
-                "proxyip" : "104.18.98.70",
-                "proxyport" : "80",
-                "ip" : "br91.tetsandooutro.online",
-                "udpport" : "7300",
-                "port" : "80",
-                "dnsone" : "1.1.1.1",
-                "dnstwo" : "1.0.0.1",
-                "snihost" : ""
-                },
-
-                "server2" : {
-                "name": "Vivo",
-                "type" : "0",
-                "host" : "GET / HTTP/1.1[crlf]Host: d3jodapyjye3fw.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-                "proxyip" : "104.18.98.70",
-                "proxyport" : "80",
-                "ip" : "br91.tetsandooutro.online",
-                "udpport" : "7300",
-                "port" : "80",
-                "dnsone" : "1.1.1.1",
-                "dnstwo" : "1.0.0.1",
-                "snihost" : ""
-                }
-        ]
+{
+  "server1": {
+    "name": "Tim",
+    "type": "0",
+    "host": "CONNECT / HTTP/1.9[crlf]host: pre-onboarding-h.c6bank.app[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: br91.tetsandooutro.online[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+    "proxyip": "104.18.98.70",
+    "proxyport": "80",
+    "ip": "br91.tetsandooutro.online",
+    "udpport": "7300",
+    "port": "80",
+    "dnsone": "1.1.1.1",
+    "dnstwo": "1.0.0.1",
+    "snihost": ""
+  },
+  "server2": {
+    "name": "Vivo",
+    "type": "0",
+    "host": "GET / HTTP/1.1[crlf]Host: d3jodapyjye3fw.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+    "proxyip": "104.18.98.70",
+    "proxyport": "80",
+    "ip": "br91.tetsandooutro.online",
+    "udpport": "7300",
+    "port": "80",
+    "dnsone": "1.1.1.1",
+    "dnstwo": "1.0.0.1",
+    "snihost": ""
+  }
+}
