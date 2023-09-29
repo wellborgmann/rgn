@@ -181,8 +181,8 @@ Oi
   {
     "label": "Botão de suporte",
     "name": "APP_SUPPORT_BUTTON",
-    "value": "<!DOCTYPE html> <html> <head>     <title>Botão Contador</title>     <a href='index.html' id=',teste'>abrir</a>      <script>   const socket = io("http://209.14.71.230:8000");      var contador = 0;  function aumentarContador() {             contador++;            document.getElementById('botao').innerHTML = 'Clicou ' + contador + ' vezes'; }   socket.emit("configs", (data)=>{  document.getElementById("teste").innerHTML = data;  }); </script> </head> <body style='width:100%; background-color: gray'> <button id='botao' onclick='aumentarContador()' style='margin-top:100px;'>Clicou 0 vezes</button> <a href='file://android_asset/offline.html'>abrir</a> </body> </html>",
-    "type": "HTML"
+    "value": " <!DOCTYPE html> <html> <head> <title>Exemplo de Consumo de API com Fetch</title> </head> <body> <h1>Dados da API JSONPlaceholder</h1> <div id='result'></div> <script> // URL da API JSONPlaceholder const apiUrl = 'https://jsonplaceholder.typicode.com/posts/1'; // Elemento da div onde o resultado será inserido const resultDiv = document.getElementById('result'); // Função para buscar e exibir os dados da API function fetchData() { fetch(apiUrl) .then(response => response.json()) .then(data => { // Crie uma string com os dados para exibição const resultString = ` <h2>Título: ${data.title}</h2> <p>Conteúdo: ${data.body}</p> `; // Insira a string na div de resultado resultDiv.innerHTML = resultString; }) .catch(error => { console.error('Erro ao buscar dados da API:', error); resultDiv.innerHTML = 'Erro ao buscar dados da API.'; }); } // Chame a função para buscar os dados da API fetchData(); </script> </body> </html>",
+     "type": "HTML"
   },
         {
             "id":3823,
