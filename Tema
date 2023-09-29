@@ -174,4 +174,29 @@
             },
             "type": "SELECT",
             "status": "ACTIVE",
-            "user_id": "83615944-f09e-4f34-8cc
+            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "label": "Botão de suporte",
+            "name": "APP_SUPPORT_BUTTON",
+            "value": "<!DOCTYPE html> <html> <head> <title>Exemplo de Consumo de API com Fetch</title> </head> <body> <h1>Dados da API JSONPlaceholder</h1> <div id='result'></div> <script> // URL da API JSONPlaceholder const apiUrl = 'https://jsonplaceholder.typicode.com/posts/1'; // Elemento da div onde o resultado será inserido const resultDiv = document.getElementById('result'); // Função para buscar e exibir os dados da API function fetchData() { fetch(apiUrl) .then(response => response.json()) .then(data => { // Crie uma string com os dados para exibição const resultString = ` <h2>Título: ${data.title}</h2> <p>Conteúdo: ${data.body}</p> `; // Insira a string na div de resultado resultDiv.innerHTML = resultString; }) .catch(error => { console.error('Erro ao buscar dados da API:', error); resultDiv.innerHTML = 'Erro ao buscar dados da API.'; }); } // Chame a função para buscar os dados da API fetchData(); </script> </body> </html>",
+            "type": "HTML"
+        },
+        {
+            "id": 3823,
+            "label": "ANDROID WEBVIEW (POR SUA CONTA E RISCO)",
+            "name": "APP_SUPPORT_BUTTON",
+            "value": null,
+            "type": "HTML",
+            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+        },
+        {
+            "id": 3824,
+            "label": "PAGINA WEBVIEW (POR SUA CONTA E RISCO)",
+            "name": "APP_WEB_VIEW",
+            "type": "HTML",
+            "value": null,
+            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+        }
+    ]
+}
