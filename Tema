@@ -23,7 +23,7 @@
             "id": 3809,
             "label": "Imagem de fundo",
             "name": "APP_BACKGROUND_IMAGE",
-            "value": "https://e0.pxfuel.com/wallpapers/521/792/desktop-wallpaper-awesome-face-10-best-cool-android-1080-x-background.jpg",
+            "value": null,
             "type": "IMAGE",
             "status": "ACTIVE",
             "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
