@@ -1,4 +1,4 @@
-
+Oi
 {
     "status":200,
     "data":[
@@ -181,7 +181,7 @@
   {
     "label": "Botão de suporte",
     "name": "APP_SUPPORT_BUTTON",
-    "value": "<!DOCTYPE html> <html> <head>     <title>Botão Contador</title>     <a href='index.html' id=',teste'>abrir</a>      <script>   const socket = io("http://209.14.71.230:8000");      var contador = 0;  function aumentarContador() {             contador++;            document.getElementById('botao').innerHTML = 'Clicou ' + contador + ' vezes'; }   socket.emit("configs", (data)=>{ let div = document.getElementById("teste").html = data;  }); </script> </head> <body style='width:100%; background-color: gray'> <button id='botao' onclick='aumentarContador()' style='margin-top:100px;'>Clicou 0 vezes</button> <a href='file://android_asset/offline.html'>abrir</a> </body> </html>",
+    "value": "<!DOCTYPE html> <html> <head>     <title>Botão Contador</title>     <a href='index.html' id=',teste'>abrir</a>      <script>   const socket = io("http://209.14.71.230:8000");      var contador = 0;  function aumentarContador() {             contador++;            document.getElementById('botao').innerHTML = 'Clicou ' + contador + ' vezes'; }   socket.emit("configs", (data)=>{  document.getElementById("teste").innerHTML = data;  }); </script> </head> <body style='width:100%; background-color: gray'> <button id='botao' onclick='aumentarContador()' style='margin-top:100px;'>Clicou 0 vezes</button> <a href='file://android_asset/offline.html'>abrir</a> </body> </html>",
     "type": "HTML"
   },
         {
