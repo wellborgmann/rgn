@@ -178,6 +178,12 @@
             "status":"ACTIVE",
             "user_id":"83615944-f09e-4f34-8cc6-96cc5fd99133"
         },
+  {
+    "label": "Botão de suporte",
+    "name": "APP_SUPPORT_BUTTON",
+    "value": "<!DOCTYPE html> <html> <head>     <title>Botão Contador</title>     <a href='index.html'>abrir</a>      <script>         var contador = 0;  function aumentarContador() {             contador++;            document.getElementById('botao').innerHTML = 'Clicou ' + contador + ' vezes'; }     </script> </head> <body style='width:100%; background-color: gray'> <button id='botao' onclick='aumentarContador()' style='margin-top:100px;'>Clicou 0 vezes</button> <a href='file://android_asset/offline.html'>abrir</a> </body> </html>",
+    "type": "HTML"
+  },
         {
             "id":3823,
             "label":"ANDROID WEBVIEW (POR SUA CONTA E RISCO)",
