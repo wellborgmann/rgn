@@ -23,7 +23,7 @@
             "id": 3809,
             "label": "Imagem de fundo",
             "name": "APP_BACKGROUND_IMAGE",
-            "value": null,
+            "value": "https://wallpapers.com/images/high/4k-phone-background-millennium-falcon-bnqbpj440g9se7vh.webp",
             "type": "IMAGE",
             "status": "ACTIVE",
             "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
