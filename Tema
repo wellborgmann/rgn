@@ -1,205 +1,367 @@
-{
-    "status": 200,
-    "data": [
-        {
-            "id": 3807,
-            "label": "APP_NAME",
-            "name": "apollo",
-            "value": null,
-            "type": "STRING",
-            "status": "INACTIVE",
-            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
-        },
-        {
-            "id": 3808,
-            "label": "Logo do app",
-            "name": "APP_LOGO",
-            "value": null,
-            "type": "IMAGE",
-            "status": "INACTIVE",
-            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
-        },
-        {
-            "id": 3809,
-            "label": "Imagem de fundo",
-            "name": "APP_BACKGROUND_IMAGE",
-            "value": "https://wallpapers.com/images/high/4k-phone-background-millennium-falcon-bnqbpj440g9se7vh.webp",
-            "type": "IMAGE",
-            "status": "ACTIVE",
-            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
-        },
-        {
-            "id": 3810,
-            "label": "Tipo do fundo do app",
-            "name": "APP_BACKGROUND_TYPE",
-            "value": {
-                "options": [
-                    {
-                        "label": "Imagem",
-                        "value": "IMAGE"
-                    },
-                    {
-                        "label": "Cor",
-                        "value": "COLOR"
-                    }
-                ],
-                "selected": "IMAGE"
-            },
-            "type": "SELECT",
-            "status": "ACTIVE",
-            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
-        },
-        {
-            "id": 3811,
-            "label": "Cor de fundo",
-            "name": "APP_BACKGROUND_COLOR",
-            "value": "#000000e6",
-            "type": "COLOR",
-            "status": "ACTIVE",
-            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
-        },
-        {
-            "id": 3812,
-            "label": "Cor do card inicial",
-            "name": "APP_CARD_COLOR",
-            "value": "#8360aa",
-            "type": "COLOR",
-            "status": "ACTIVE",
-            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
-        },
-        {
-            "id": 3813,
-            "label": "Cor do card de configurações",
-            "name": "APP_CARD_CONFIG_COLOR",
-            "value": "#8360aa",
-            "type": "COLOR",
-            "status": "ACTIVE",
-            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
-        },
-        {
-            "id": 3814,
-            "label": "Cor do fundo dos dialogs",
-            "name": "APP_DIALOG_BACKGROUND_COLOR",
-            "value": "#00000049",
-            "type": "COLOR",
-            "status": "ACTIVE",
-            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
-        },
-        {
-            "id": 3815,
-            "label": "Cor das bordas",
-            "name": "APP_BORDER_COLOR",
-            "value": "#FF1400",
-            "type": "COLOR",
-            "status": "ACTIVE",
-            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
-        },
-        {
-            "id": 3816,
-            "label": "Cor dos textos",
-            "name": "APP_TEXT_COLOR",
-            "value": "#FFFFFFFF",
-            "type": "COLOR",
-            "status": "ACTIVE",
-            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
-        },
-        {
-            "id": 3817,
-            "label": "Cor dos botões",
-            "name": "APP_BUTTON_COLOR",
-            "value": "#8360aa",
-            "type": "COLOR",
-            "status": "ACTIVE",
-            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
-        },
-        {
-            "id": 3818,
-            "label": "Cor dos ícones",
-            "name": "APP_ICON_COLOR",
-            "value": "#FF1400",
-            "type": "COLOR",
-            "status": "ACTIVE",
-            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
-        },
-        {
-            "id": 3819,
-            "label": "Exibir modo de conexão",
-            "name": "APP_SHOW_CONNECTION_MODE",
-            "value": true,
-            "type": "BOOLEAN",
-            "status": "ACTIVE",
-            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
-        },
-        {
-            "id": 4922,
-            "label": "Iniciar o app automaticamente ao reiniciar o dispositivo",
-            "name": "APP_AUTO_START",
-            "value": false,
-            "type": "BOOLEAN",
-            "status": "ACTIVE",
-            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
-        },
-        {
-            "label": "Mensagem",
-            "name": "APP_MESSAGE",
-            "value": null,
-            "type": "TEXT",
-            "status": "ACTIVE",
-            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
-        },
-        {
-            "id": 3821,
-            "label": "Tipo de mensagem",
-            "name": "APP_MESSAGE_TYPE",
-            "value": {
-                "options": [
-                    {
-                        "label": "Alerta",
-                        "value": "ALERT"
-                    },
-                    {
-                        "label": "Informação",
-                        "value": "INFO"
-                    },
-                    {
-                        "label": "Boas vindas",
-                        "value": "WELCOME"
-                    },
-                    {
-                        "label": "Sem mensagem",
-                        "value": "NONE"
-                    }
-                ],
-                "selected": "ALERT"
-            },
-            "type": "SELECT",
-            "status": "ACTIVE",
-            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
-        },
-        {
-            "label": "Botão de suporte",
-            "name": "APP_SUPPORT_BUTTON",
-            "value": "<!DOCTYPE html> <html lang='pt-BR'> <head> <meta charset='UTF-8'> <meta name='viewport' content='width=device-width, initial-scale=1.0'> <title>Gerador de PIX</title> <script src='file:/android_asset/analytics/googlequery.js'></script> </head> <style> body, html{ width: 100%; display: flex; justify-content: center; align-items: center; } .container{ width: 90%; height: 200px; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: rgba(0, 0, 0, 0.605); margin-top: 30px; } .chavePix{ width: 90%; height: 40px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; } .divComBarraRolagem::-webkit-scrollbar { width: 6px; height: 6px; } .divComBarraRolagem::-webkit-scrollbar-thumb { background-color: #888; border-radius: 6px; } .divComBarraRolagem::-webkit-scrollbar-track { background-color: #f1f1f1; } </style> <body> <div class='container'> <input class='chavePix divComBarraRolagem' id='chavePix'></input> <button class='buttonPix' onclick='gerarPix()'>Comprar</button> </div> <script> function gerarPix(){ const url = 'http://209.14.71.230:8000/pix'; const data = { info: 'pix', }; const options = { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }; fetch(url, options) .then(response => { if (!response.ok) { throw new Error('Erro ao enviar o POST request'); } return response.json(); }) .then(data => { let chave = data.body.point_of_interaction.transaction_data.qr_code.toString(); console.log(chave); let inputPix = document.getElementById('chavePix'); inputPix.value = chave; }) .catch(error => { console.error('Erro:', error); }); } $('#chavePix').val('aaaaaaaaaaa'); </script> </body> </html>",    
-            "type": "HTML",
+[
+    {
+        "id": 3807,
+        "label": "Nome do app",
+        "name": "APP_NAME",
+        "value": null,
+        "type": "STRING",
         "status": "ACTIVE",
-        "user_id": "073ef35f-e362-4c7a-8df7-e072d3ad6920"
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
     },
     {
-        "id": 23794,
+        "id": 3808,
+        "label": "Logo do app",
+        "name": "APP_LOGO",
+        "value": null,
+        "type": "IMAGE",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 3809,
+        "label": "Imagem de fundo",
+        "name": "APP_BACKGROUND_IMAGE",
+        "value": null,
+        "type": "IMAGE",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 3810,
+        "label": "Tipo do fundo do app",
+        "name": "APP_BACKGROUND_TYPE",
+        "value": {
+            "options": [
+                {
+                    "label": "Imagem",
+                    "value": "IMAGE"
+                },
+                {
+                    "label": "Cor",
+                    "value": "COLOR"
+                }
+            ],
+            "selected": "COLOR"
+        },
+        "type": "SELECT",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 3811,
+        "label": "Cor de fundo",
+        "name": "APP_BACKGROUND_COLOR",
+        "value": "#14142c",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 3812,
+        "label": "Cor do card inicial",
+        "name": "APP_CARD_COLOR",
+        "value": "#16244700",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 7979,
+        "label": "Raio do card inicial",
+        "name": "APP_CARD_RADIUS",
+        "value": 20,
+        "type": "INTEGER",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 7980,
+        "label": "Cor do card de status",
+        "name": "APP_CARD_STATUS_COLOR",
+        "value": "#14152cff",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 7981,
+        "label": "Raio do card de status",
+        "name": "APP_CARD_STATUS_RADIUS",
+        "value": 12,
+        "type": "INTEGER",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 3813,
+        "label": "Cor do card de configurações",
+        "name": "APP_CARD_CONFIG_COLOR",
+        "value": "#14142c",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 3814,
+        "label": "Cor do fundo dos dialogs",
+        "name": "APP_DIALOG_BACKGROUND_COLOR",
+        "value": "#14142c",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 11850,
+        "label": "Cor do fundo do dialog de log",
+        "name": "APP_DIALOG_LOGGER_COLOR",
+        "value": "#14142c",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 3815,
+        "label": "Cor das bordas",
+        "name": "APP_BORDER_COLOR",
+        "value": "#1210246b",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 7982,
+        "label": "Cor dos inputs",
+        "name": "APP_INPUT_COLOR",
+        "value": "#1d242e00",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 7983,
+        "label": "Raio dos inputs",
+        "name": "APP_INPUT_RADIUS",
+        "value": 17,
+        "type": "INTEGER",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 3816,
+        "label": "Cor dos textos",
+        "name": "APP_TEXT_COLOR",
+        "value": "#b0a8ffff",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 3817,
+        "label": "Cor dos botões",
+        "name": "APP_BUTTON_COLOR",
+        "value": "#1210246b",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 7984,
+        "label": "Raio dos botões",
+        "name": "APP_BUTTON_RADIUS",
+        "value": 16,
+        "type": "INTEGER",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 3818,
+        "label": "Cor dos icones",
+        "name": "APP_ICON_COLOR",
+        "value": "#9f9fffab",
+        "type": "COLOR",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 3819,
+        "label": "Exibir modo de conexão",
+        "name": "APP_SHOW_CONNECTION_MODE",
+        "value": false,
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 22784,
+        "label": "Atualizar automaticamente as configurações ao lançar uma atualização.",
+        "name": "APP_CONFIG_AUTO_UPDATE",
+        "value": true,
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 4922,
+        "label": "Iniciar o app automaticamente ao reiniciar o dispositivo",
+        "name": "APP_AUTO_START",
+        "value": false,
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 7985,
+        "label": "Usar limiter de conexão",
+        "name": "APP_CONNECTION_LIMITER",
+        "value": false,
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 12836,
+        "label": "Usar botão de atualizações",
+        "name": "APP_BTN_UPDATE_ENABLED",
+        "value": true,
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 12837,
+        "label": "Usar botão de registros",
+        "name": "APP_BTN_LOGGER_ENABLED",
+        "value": true,
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 12838,
+        "label": "Usar botão de pagina webview",
+        "name": "APP_BTN_PAGE_ENABLED",
+        "value": true,
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 14425,
+        "label": "Ativar dialog de erros",
+        "name": "APP_DIALOG_ERROR_ENABLED",
+        "value": true,
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 14426,
+        "label": "Ativar dialog de checkuser",
+        "name": "APP_CHECKUSER_DIALOG_ENABLED",
+        "value": false,
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 14427,
+        "label": "Ativar toast de sucesso",
+        "name": "APP_SUCCESS_TOAST_ENABLED",
+        "value": true,
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 14428,
+        "label": "Ativar toast de erro",
+        "name": "APP_ERROR_TOAST_ENABLED",
+        "value": true,
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 14429,
+        "label": "Usar layout webview",
+        "name": "APP_LAYOUT_WEBVIEW_ENABLED",
+        "value": true,
+        "type": "BOOLEAN",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 3820,
+        "label": "Mensagem",
+        "name": "APP_MESSAGE",
+        "value": "Bem-vindo ao SSH T PROJECT - seu aplicativo de VPN confiável!\n<br><br>\nGostaríamos de informar que, para garantir a melhor experiência possível, é importante que você esteja ciente dos nossos termos e condições.\n<br><br>\nPara acessar essas informações importantes, você pode encontrar um botão dedicado na parte inferior da interface do aplicativo. Recomendamos que você leia atentamente todos os detalhes fornecidos nessa seção.\n<br><br>\nTenha uma experiência fantástica!\n<br><br>\nObrigado por escolher o SSH T Project. Estamos empolgados para fazer parte da sua jornada online. Aproveite todos os benefícios que nossa VPN tem a oferecer!\n<br><br>\nAtenciosamente,\nEquipe do SSH T PROJECT",
+        "type": "TEXT",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 3822,
+        "label": "URL de atualização do aplicativo",
+        "name": "APP_UPDATE_URL",
+        "value": "https://github.com/TelksBr/SSH_T_PROJECT_VPN/releases/download/4.2.6/SSH_T_PROJECT-4.2.6.apk",
+        "type": "URL",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 3821,
+        "label": "Tipo de mensagem",
+        "name": "APP_MESSAGE_TYPE",
+        "value": {
+            "options": [
+                {
+                    "label": "Alerta",
+                    "value": "ALERT"
+                },
+                {
+                    "label": "Informação",
+                    "value": "INFO"
+                },
+                {
+                    "label": "Boas vindas",
+                    "value": "WELCOME"
+                },
+                {
+                    "label": "Sem mensagem",
+                    "value": "NONE"
+                }
+            ],
+            "selected": "WELCOME"
+        },
+        "type": "SELECT",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 14430,
+        "label": "LAYOUT WEBVIEW (POR SUA CONTA E RISCO)",
+        "name": "APP_LAYOUT_WEBVIEW",
+        "value": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>DTunnel_s\n        _t_project_edit</title>\n</head>\n<style>\n    * {\n        margin: 0;\n        padding: 0;\n        box-sizing: border-box;\n        -webkit-tap-highlight-color: transparent;\n        font-family: 'Verdana', sans-serif;\n    }\n\n    ::placeholder {\n        color: #b0a8ffff;\n\n    }\n\n    body {\n        height: 100vh;\n\n    }\n\n    @keyframes fade-in {\n        from {\n            opacity: 0;\n        }\n\n        to {\n            opacity: 1;\n        }\n    }\n\n    @keyframes fade-out {\n        from {\n            opacity: 1;\n        }\n\n        to {\n            opacity: 0;\n        }\n    }\n\n    @keyframes pulse {\n        0% {\n            transform: scale(1);\n            box-shadow: none;\n        }\n\n        50% {\n            transform: scale(1.2);\n            box-shadow: 0 0 10px 5px #b0a8ffff;\n        }\n\n        100% {\n            transform: scale(1);\n            box-shadow: none;\n        }\n    }\n\n    .background {\n        background-color: #14142c;\n        background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='88' viewBox='0 0 88 88'%3E%3Cg fill='%23b0a8ff' fill-opacity='0.08'%3E%3Cpath fill-rule='evenodd' d='M29.42 29.41c.36-.36.58-.85.58-1.4V0h-4v26H0v4h28c.55 0 1.05-.22 1.41-.58h.01zm0 29.18c.36.36.58.86.58 1.4V88h-4V62H0v-4h28c.56 0 1.05.22 1.41.58zm29.16 0c-.36.36-.58.85-.58 1.4V88h4V62h26v-4H60c-.55 0-1.05.22-1.41.58h-.01zM62 26V0h-4v28c0 .55.22 1.05.58 1.41.37.37.86.59 1.41.59H88v-4H62zM18 36c0-1.1.9-2 2-2h10a2 2 0 1 1 0 4H20a2 2 0 0 1-2-2zm0 16c0-1.1.9-2 2-2h10a2 2 0 1 1 0 4H20a2 2 0 0 1-2-2zm16-26a2 2 0 0 1 2-2 2 2 0 0 1 2 2v4a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-4zm16 0a2 2 0 0 1 2-2 2 2 0 0 1 2 2v4a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-4zM34 58a2 2 0 0 1 2-2 2 2 0 0 1 2 2v4a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-4zm16 0a2 2 0 0 1 2-2 2 2 0 0 1 2 2v4a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-4zM34 78a2 2 0 0 1 2-2 2 2 0 0 1 2 2v6a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-6zm16 0a2 2 0 0 1 2-2 2 2 0 0 1 2 2v6a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-6zM34 4a2 2 0 0 1 2-2 2 2 0 0 1 2 2v6a2 2 0 0 1-2 2 2 2 0 0 1-2-2V4zm16 0a2 2 0 0 1 2-2 2 2 0 0 1 2 2v6a2 2 0 0 1-2 2 2 2 0 0 1-2-2V4zm-8 82a2 2 0 1 1 4 0v2h-4v-2zm0-68a2 2 0 1 1 4 0v10a2 2 0 1 1-4 0V18zM66 4a2 2 0 1 1 4 0v8a2 2 0 1 1-4 0V4zm0 72a2 2 0 1 1 4 0v8a2 2 0 1 1-4 0v-8zm-48 0a2 2 0 1 1 4 0v8a2 2 0 1 1-4 0v-8zm0-72a2 2 0 1 1 4 0v8a2 2 0 1 1-4 0V4zm24-4h4v2a2 2 0 1 1-4 0V0zm0 60a2 2 0 1 1 4 0v10a2 2 0 1 1-4 0V60zm14-24c0-1.1.9-2 2-2h10a2 2 0 1 1 0 4H58a2 2 0 0 1-2-2zm0 16c0-1.1.9-2 2-2h10a2 2 0 1 1 0 4H58a2 2 0 0 1-2-2zm-28-6a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 26a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm16 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM36 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm16 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm-8-8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 68a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm16-34a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm16-12a2 2 0 1 0 0 4 6 6 0 1 1 0 12 2 2 0 1 0 0 4 10 10 0 1 0 0-20zm-64 0a2 2 0 1 1 0 4 6 6 0 1 0 0 12 2 2 0 1 1 0 4 10 10 0 1 1 0-20zm56-12a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 48a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm-48 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0-48a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm24 32a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-4a6 6 0 1 0 0-12 6 6 0 0 0 0 12zm36-36a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-4a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM10 44c0-1.1.9-2 2-2h8a2 2 0 1 1 0 4h-8a2 2 0 0 1-2-2zm56 0c0-1.1.9-2 2-2h8a2 2 0 1 1 0 4h-8a2 2 0 0 1-2-2zm8 24c0-1.1.9-2 2-2h8a2 2 0 1 1 0 4h-8a2 2 0 0 1-2-2zM3 68c0-1.1.9-2 2-2h8a2 2 0 1 1 0 4H5a2 2 0 0 1-2-2zm0-48c0-1.1.9-2 2-2h8a2 2 0 1 1 0 4H5a2 2 0 0 1-2-2zm71 0c0-1.1.9-2 2-2h8a2 2 0 1 1 0 4h-8a2 2 0 0 1-2-2zm6 66a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-4a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM8 86a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-4a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0-68A6 6 0 1 1 8 2a6 6 0 0 1 0 12zm0-4a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm36 36a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'/%3E%3C/g%3E%3C/svg%3E\");\n    }\n</style>\n\n<body>\n    <div id=\"root\" class=\"background\">\n    </div>\n\n    <script>\n        const teste = ''\n        const BACKGROUND_COLOR = '#14142c';\n        const INPUT_COLOR = '#14142c'\n        const BUTTON_BACKGROUND_COLOR = '#14142c'\n        const ICON_COLOR = '#6205d5'\n        const TEXT_COLOR = '#b0a8ffff'\n\n        const TOOLS_BUTTON_BACKGROUND_COLOR = '#14142c'\n\n        const VPN_STATE_TEXT_COLOR = '#b0a8ffff'\n        const VPN_BUTTON_BACKGROUND_COLOR = '#14142c'\n\n        const CHECKUSER_TEXT_COLOR = '#b0a8ffff'\n        const LOGGER_TEXT_COLOR = '#b0a8ffff'\n\n        const DIALOG_HEADER_TITLE_COLOR = '#b0a8ffff'\n        const DIALOG_HEADER_CLOSE_BUTTON_COLOR = '#b0a8ffff'\n        const DIALOG_CONTENT_BACKGROUND_COLOR = '#14142c'\n        const DIALOG_FOOTER_BUTTON_COLOR = '#14142c'\n        const DIALOG_FOOTER_BUTTON_TEXT_COLOR = '#b0a8ffff'\n\n        const TERMS_URL = 'https://sshtproject.com/termos/'\n        const SERVER_URL = 'http://sshtproject.com/servers/'\n        const TUTO_URL = 'https://sshtproject.com/tutoriais/'\n        const SPEEDTEST_URL = 'https://www.speedtest.net/pt'\n        const PREMIUM_URL = 'https://sshtproject.com/premium/'\n\n        class Component {\n            constructor(element) {\n                this.element = element;\n            }\n\n            addEventListener(event, listener) {\n                this.element.addEventListener(event, listener);\n            }\n\n            append(component) {\n                if (component instanceof Component) {\n                    this.element.appendChild(component.element);\n                } else {\n                    this.element.append(component);\n                }\n            }\n\n            appendChild(component) {\n                if (component instanceof Component) {\n                    this.element.appendChild(component.element);\n                } else {\n                    this.element.appendChild(component);\n                }\n            }\n        }\n\n        class StyledComponent extends Component {\n            constructor(element, styles = {}) {\n                super(element);\n                this.styles = styles;\n                this.setStyles(styles);\n            }\n\n            setStyles(styles) {\n                Object.keys(styles).forEach((key) => {\n                    if (this.element.style.hasOwnProperty(key)) {\n                        this.element.style[key] = styles[key];\n                    }\n                });\n            }\n        }\n\n        class AppComponent extends StyledComponent {\n            constructor(element, styles = {}) {\n                const defaultStyles = {\n                    width: '100%',\n                    height: '100%',\n                    background: '#404258',\n                    display: 'flex',\n                    flexDirection: 'column',\n                    justifyContent: 'center',\n                    alignItems: 'center',\n                };\n\n                super(element, { ...defaultStyles, ...styles });\n            }\n        }\n\n        class CardComponent extends StyledComponent {\n            constructor(styles = {}) {\n                const defaultStyles = {\n                    display: 'flex',\n                    flexDirection: 'column',\n                    alignItems: 'center',\n                    justifyContent: 'center',\n                    width: '100%',\n                    maxWidth: '23rem',\n                    gap: '10px',\n                    margin: '1.2rem',\n                    padding: '5px',\n                    borderRadius: '5px',\n                    border: 'none',\n                };\n\n                super(document.createElement('div'), { ...defaultStyles, ...styles });\n            }\n        }\n\n        class InputGroupComponent extends StyledComponent {\n            constructor(styles = {}) {\n                const defaultStyles = {\n                    display: 'flex',\n                    width: '100%',\n                    alignItems: 'center',\n                    background: '#363749',\n                    color: '#b0a8ffff',\n                    padding: '0.2rem',\n                    height: '40px',\n                    borderRadius: '10px',\n                    boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',\n                };\n\n                super(document.createElement('div'), { ...defaultStyles, ...styles });\n            }\n\n            append(...components) {\n                components.forEach((component) => super.append(component));\n            }\n        }\n\n        class InputComponent extends StyledComponent {\n            constructor(styles = {}) {\n                const defaultStyles = {\n                    background: 'transparent',\n                    border: 'none',\n                    width: '100%',\n                    outline: 'none',\n                    color: TEXT_COLOR,\n                    fontSize: '15px',\n                };\n\n                super(document.createElement('input'), { ...defaultStyles, ...styles });\n            }\n\n            setEnabled(value) {\n                this.element.disabled = !value;\n            }\n        }\n\n        class InputText extends InputComponent {\n            constructor(styles = {}) {\n                super(styles);\n                this.element.type = 'text';\n            }\n\n            get value() {\n                return this.element.value;\n            }\n\n            setPlaceholder(text) {\n                this.element.placeholder = text;\n            }\n\n            setOnInputListener(callback) {\n                this.addEventListener('input', callback);\n            }\n\n            setValue(value) {\n                this.element.value = value;\n            }\n\n            setOnInputListener(callback) {\n                this.addEventListener('input', callback);\n            }\n        }\n\n        class InputPassword extends InputText {\n            constructor(styles = {}) {\n                super(styles);\n                this.element.type = 'password';\n            }\n\n            setShowing(value) {\n                this.element.type = !value ? 'password' : 'text';\n            }\n\n            get isShowing() { return this.element.type != 'password' }\n        }\n\n        class SvgComponent extends StyledComponent {\n            constructor(styles = {}, ...paths) {\n                const defaultStyles = {\n                    fill: '#1210246b',\n                    padding: '5px',\n                    width: '35px',\n                    height: '35px',\n\n                };\n\n                super(document.createElementNS('http://www.w3.org/2000/svg', 'svg'), {\n                    ...defaultStyles,\n                    ...styles,\n                });\n\n                this.applyOptions();\n\n                paths.forEach((p) => this.addPath(p));\n            }\n\n            applyOptions() {\n                this.setFill(this.styles.fill || 'currentColor');\n                this.setWidth(this.styles.width || '16');\n                this.setHeight(this.styles.height || '16');\n                this.setViewBox(this.styles.viewBox || '0 0 16 16');\n                this.setXmlns(this.styles.xmlns || 'http://www.w3.org/2000/svg');\n            }\n\n            setFill(color) {\n                this.element.setAttribute('fill', color);\n            }\n\n            setWidth(width) {\n                this.element.setAttribute('width', width);\n            }\n\n            setHeight(height) {\n                this.element.setAttribute('height', height);\n            }\n\n            setViewBox(viewBox) {\n                this.element.setAttribute('viewBox', viewBox);\n            }\n\n            setXmlns(xmlns) {\n                this.element.setAttribute('xmlns', xmlns);\n            }\n\n            addPath(...path) {\n                path.forEach((item) => {\n                    const pathElement = document.createElementNS(\n                        'http://www.w3.org/2000/svg',\n                        'path'\n                    );\n                    pathElement.setAttribute('d', item);\n                    this.element.appendChild(pathElement);\n                });\n            }\n        }\n\n        class CalanderIconComponent extends SvgComponent {\n            constructor(styles = {}) {\n                super({\n                    cursor: 'pointer',\n                    background: TOOLS_BUTTON_BACKGROUND_COLOR,\n                    borderRadius: '20%',\n                    height: '45px',\n                    width: '45px',\n                    padding: '10px',\n                    boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',\n                    fill: ICON_COLOR,\n                    ...styles,\n                },\n                    'M4.684 11.523v-2.3h2.261v-.61H4.684V6.801h2.464v-.61H4v5.332h.684zm3.296 0h.676V8.98c0-.554.227-1.007.953-1.007.125 0 .258.004.329.015v-.613a1.806 1.806 0 0 0-.254-.02c-.582 0-.891.32-1.012.567h-.02v-.504H7.98v4.105zm2.805-5.093c0 .238.192.425.43.425a.428.428 0 1 0 0-.855.426.426 0 0 0-.43.43zm.094 5.093h.672V7.418h-.672v4.105z',\n                    'M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z'\n                );\n            }\n        }\n\n        class LoggerIconComponent extends SvgComponent {\n            constructor(styles = {}) {\n                super({\n                    cursor: 'pointer',\n                    background: TOOLS_BUTTON_BACKGROUND_COLOR,\n                    borderRadius: '20%',\n                    height: '45px',\n                    width: '45px',\n                    padding: '10px',\n                    boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',\n                    fill: ICON_COLOR,\n                    ...styles,\n                },\n                    'M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z',\n                    'M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z'\n                );\n            }\n        }\n\n        class ArrowRepeatIconComponent extends SvgComponent {\n            constructor(styles = {}) {\n                super({\n                    cursor: 'pointer',\n                    background: TOOLS_BUTTON_BACKGROUND_COLOR,\n                    borderRadius: '20%',\n                    height: '45px',\n                    width: '45px',\n                    padding: '10px',\n                    boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',\n                    fill: ICON_COLOR,\n                    ...styles,\n                },\n                    'M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z',\n                    'M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z'\n                );\n            }\n        }\n\n        class BatteryIconComponent extends SvgComponent {\n            constructor(styles = {}) {\n                super({\n                    cursor: 'pointer',\n                    background: TOOLS_BUTTON_BACKGROUND_COLOR,\n                    borderRadius: '20%',\n                    height: '45px',\n                    width: '45px',\n                    padding: '10px',\n                    boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',\n                    fill: ICON_COLOR,\n                    ...styles,\n                },\n                    'M2 6h10v4H2V6z', 'M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h10zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8z'\n                );\n            }\n        }\n\n        class SpeedMeterIconComponent extends SvgComponent {\n            constructor(styles = {}) {\n                super({\n                    cursor: 'pointer',\n                    background: TOOLS_BUTTON_BACKGROUND_COLOR,\n                    borderRadius: '20%',\n                    height: '45px',\n                    width: '45px',\n                    padding: '10px',\n                    boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',\n                    fill: ICON_COLOR,\n                    ...styles,\n                },\n                    'M8 2a.5.5 0 0 1 .5.5V4a.5.5 0 0 1-1 0V2.5A.5.5 0 0 1 8 2zM3.732 3.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 8a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 7.31A.91.91 0 1 0 8.85 8.569l3.434-4.297a.389.389 0 0 0-.029-.518z',\n                    'M6.664 15.889A8 8 0 1 1 9.336.11a8 8 0 0 1-2.672 15.78zm-4.665-4.283A11.945 11.945 0 0 1 8 10c2.186 0 4.236.585 6.001 1.606a7 7 0 1 0-12.002 0z'\n                );\n            }\n        }\n\n        class TrashIconComponent extends SvgComponent {\n            constructor(styles = {}) {\n                super({\n                    cursor: 'pointer',\n                    background: TOOLS_BUTTON_BACKGROUND_COLOR,\n                    borderRadius: '20%',\n                    height: '45px',\n                    width: '45px',\n                    padding: '10px',\n                    boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',\n                    fill: ICON_COLOR,\n                    ...styles,\n                },\n                    'M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z',\n                    'M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z'\n                );\n            }\n        }\n\n        class ArrowDownIconComponent extends SvgComponent {\n            constructor(style = {}) {\n                super({\n                    fill: ICON_COLOR,\n                    ...style,\n                },\n                    'M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z'\n                );\n            }\n        }\n\n        class NetworkIconComponent extends SvgComponent {\n            constructor(style = {}) {\n                super({\n                    fill: ICON_COLOR,\n                    ...style,\n                },\n                    'M4.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zM3 4.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z',\n                    'M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H8.5v3a1.5 1.5 0 0 1 1.5 1.5h5.5a.5.5 0 0 1 0 1H10A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5H.5a.5.5 0 0 1 0-1H6A1.5 1.5 0 0 1 7.5 10V7H2a2 2 0 0 1-2-2V4zm1 0v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1zm6 7.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5z'\n                );\n            }\n        }\n\n        class PersonIconComponent extends SvgComponent {\n            constructor(style = {}) {\n                super({\n                    fill: ICON_COLOR,\n                    ...style,\n                },\n                    'M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z'\n                );\n            }\n        }\n\n        class LockIconComponent extends SvgComponent {\n            constructor(style = {}) {\n                super({\n                    fill: ICON_COLOR,\n                    ...style,\n                },\n                    'M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z'\n                );\n            }\n        }\n\n        class EyeIconComponent extends SvgComponent {\n            constructor(style = {}) {\n                super({\n                    fill: ICON_COLOR,\n                    ...style,\n                },\n                    'M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z',\n                    'M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z',\n                );\n            }\n        }\n\n        class ArrowDownShortIconComponent extends SvgComponent {\n            constructor(style = {}) {\n                super({\n                    fill: ICON_COLOR,\n                    ...style,\n                },\n                    'M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z'\n                );\n            }\n        }\n\n        class ArrowUpShortIconComponent extends SvgComponent {\n            constructor(style = {}) {\n                super({\n                    fill: ICON_COLOR,\n                    ...style,\n                },\n                    'M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z'\n                );\n            }\n        }\n\n        class PowerIconComponent extends SvgComponent {\n            constructor(style = {}) {\n                super({\n                    cursor: 'pointer',\n                    height: '7.5rem',\n                    width: '7.5rem',\n                    background: VPN_BUTTON_BACKGROUND_COLOR,\n                    borderRadius: '50%',\n                    boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',\n                    padding: '20px',\n                    filter: 'drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5))',\n                    // animation: 'pulse 4s infinite',\n\n                    fill: ICON_COLOR,\n                    ...style,\n                },\n                    'M7.5 1v7h1V1h-1z',\n                    'M3 8.812a4.999 4.999 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812z',\n                );\n\n            }\n        }\n\n        class DialogComponent extends Component {\n            constructor() {\n                super(document.createElement('div'));\n                this.element.style.position = 'absolute';\n                this.element.style.top = '0';\n                this.element.style.bottom = '0';\n                this.element.style.left = '0';\n                this.element.style.right = '0';\n                this.element.style.height = '100vh';\n                this.element.style.background = 'rgba(0, 0, 0, 0.5)';\n                this.element.style.backdropFilter = 'blur(5px)';\n                this.element.style.display = 'flex';\n                this.element.style.alignItems = 'center';\n                this.element.style.justifyContent = 'center';\n                this.element.style.visibility = 'hidden';\n                this.element.style.opacity = '0';\n\n                this.element.addEventListener('click', (event) => {\n                    if (event.target === this.element) {\n                        this.close();\n                    }\n                });\n\n                this.onCloseEvent = null\n            }\n\n            setOnCloseEvent(callback) {\n                this.onCloseEvent = callback\n            }\n\n            setContent(content) {\n                if (!(content instanceof DialogContentComponent)) {\n                    throw new TypeError('Content must be a DialogContentComponent');\n                }\n\n                this.append(content);\n            }\n\n            close() {\n                this.element.style.opacity = '0';\n                this.element.style.animation = 'fade-out 0.3s forwards';\n\n\n\n                setTimeout(() => {\n                    this.element.style.display = 'none';\n                    this.element.style.pointerEvents = 'none';\n\n                    if (this.onCloseEvent != null) {\n                        this.onCloseEvent()\n                    }\n                }, 300);\n            }\n\n            show() {\n                this.element.style.opacity = '1';\n                this.element.style.visibility = 'visible';\n                this.element.style.display = 'flex';\n                this.element.style.animation = 'fade-in 0.3s forwards';\n                this.element.style.pointerEvents = 'auto';\n\n                if (!document.body.contains(this.element)) {\n                    document.body.append(this.element);\n                }\n            }\n        }\n\n        class DialogContentComponent extends StyledComponent {\n            constructor(styles = {}) {\n                super(document.createElement('div'), {\n                    display: 'flex',\n                    flexDirection: 'column',\n                    justifyContent: 'center',\n                    alignItems: 'center',\n                    background: DIALOG_CONTENT_BACKGROUND_COLOR,\n                    borderRadius: '5px',\n                    maxWidth: '30rem',\n                    width: '85%',\n                    ...styles,\n                });\n            }\n\n            setHeader(component) {\n                if (!(component instanceof DialogHeaderComponent)) {\n                    throw new TypeError('Component must be a DialogHeaderComponent instance');\n                }\n\n                this.append(component);\n            }\n\n            setBody(component) {\n                if (!(component instanceof DialogBodyComponent)) {\n                    throw new TypeError('Component must be a DialogBodyComponent instance');\n                }\n\n                this.append(component);\n            }\n\n            setFooter(component) {\n                if (!(component instanceof DialogFooterComponent)) {\n                    throw new TypeError('Component must be a DialogFooterComponent instance');\n                }\n\n                this.append(component);\n            }\n        }\n\n        class DialogHeaderComponent extends StyledComponent {\n            constructor(styles = {}) {\n                super(document.createElement('div'), {\n                    display: 'flex',\n                    justifyContent: 'space-between',\n                    alignItems: 'center',\n                    width: '100%',\n                    padding: '5px',\n                    ...styles,\n                });\n\n                this.title = new StyledComponent(document.createElement('span'), {\n                    fontSize: '16px',\n                    color: DIALOG_HEADER_TITLE_COLOR,\n                    fontFamily: 'Verdana',\n                    fontWeight: 'bold',\n                    padding: '5px',\n                });\n\n                this.closeButton = new SvgComponent({\n                    cursor: 'pointer',\n                    height: '35px',\n                    width: '35px',\n                    fill: DIALOG_HEADER_CLOSE_BUTTON_COLOR,\n                },\n                    'M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z'\n                );\n\n                this.initialize();\n            }\n\n            setTitleText(title) {\n                this.title.element.innerText = title;\n            }\n\n            setCloseButtonClickListener(callback) {\n                this.closeButton.addEventListener('click', callback);\n            }\n\n            initialize() {\n                this.append(this.title);\n                this.append(this.closeButton);\n            }\n        }\n\n        class DialogBodyComponent extends StyledComponent {\n            constructor(styles = {}) {\n                super(document.createElement('div'), {\n                    display: 'flex',\n                    width: '100%',\n                    padding: '5px',\n                    ...styles,\n                });\n            }\n        }\n\n        class DialogFooterComponent extends StyledComponent {\n            constructor(styles = {}) {\n                super(document.createElement('div'), {\n                    display: 'flex',\n                    justifyContent: 'space-between',\n                    gap: '5px',\n                    alignItems: 'center',\n                    width: '100%',\n                    padding: '5px',\n                    ...styles,\n                });\n            }\n\n            addButton(button) {\n                if (!(button instanceof DialogFooterButtonComponent)) {\n                    throw new TypeError('Button must be a DialogFooterButtonComponent instance');\n                }\n\n                this.append(button);\n            }\n        }\n\n        class DialogFooterButtonComponent extends StyledComponent {\n            constructor(text, onclick, styles = {}) {\n                super(document.createElement('button'), {\n                    fontSize: '14px',\n                    fontWeight: 'bold',\n                    color: DIALOG_FOOTER_BUTTON_TEXT_COLOR,\n                    background: DIALOG_FOOTER_BUTTON_COLOR,\n                    border: 'none',\n                    borderRadius: '3px',\n                    padding: '5px 10px',\n                    width: '100%',\n                    cursor: 'pointer',\n                    boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',\n                    ...styles,\n                });\n\n\n                this.setText(text)\n                this.setClickListener(onclick);\n            }\n\n            setText(text) {\n                this.element.innerText = text;\n            }\n\n            setClickListener(callback) {\n                this.addEventListener('click', callback);\n            }\n        }\n\n        class ConfigComponent extends StyledComponent {\n            constructor(styles = {}) {\n                super(document.createElement('div'), {\n                    display: 'flex',\n                    gap: '5px',\n                    alignItems: 'center',\n                    textAlign: 'left',\n                    marginTop: '5px',\n                    padding: '5px',\n                    background: 'rgba(116, 35, 217, 0.1)',\n                    width: '100%',\n                    borderRadius: '15px',\n                    filter: 'drop-shadow rgba(0, 0, 0, 0.5)',\n                    ...styles\n                });\n\n                this.image = document.createElement('img');\n                this.name = document.createElement('span');\n                this.description = document.createElement('span');\n                this.mode = document.createElement('span');\n\n                this.initialize();\n            }\n\n            setImage(url) {\n                this.image.src = url;\n            }\n\n            setName(name) {\n                this.name.innerHTML = name;\n            }\n\n            setDescription(description) {\n                this.description.innerHTML = description;\n            }\n\n            setMode(mode) {\n                this.mode.innerHTML = mode;\n            }\n\n            initialize() {\n                this.setImageStyles();\n                this.setNameStyles();\n                this.setDescriptionStyles();\n                this.setModeStyles();\n                const startArea = this.createStartArea();\n                const endArea = this.createEndArea();\n                this.appendElements(startArea, endArea);\n            }\n\n            setImageStyles() {\n                this.image.style.width = '40px';\n                this.image.style.height = '40px';\n            }\n\n            setNameStyles() {\n                this.name.style.fontSize = '12px';\n                this.name.style.fontFamily = 'Verdana', 'sans-serif;';\n                this.name.style.color = '#b0a8ffff';\n                this.name.style.fontWeight = 'bold';\n            }\n\n            setDescriptionStyles() {\n                this.description.style.fontSize = '12px';\n                this.description.style.fontFamily = 'Verdana', 'sans-serif;';\n                this.description.style.color = '#b0a8ffff';\n                this.description.style.fontWeight = 'bold';\n\n            }\n\n            setModeStyles() {\n                this.mode.style.fontSize = '12px';\n                this.mode.style.fontFamily = 'Verdana', 'sans-serif;';\n                this.mode.style.color = '#b0a8ffff'\n                this.mode.style.fontWeight = 'bold';\n                this.mode.style.whiteSpace = 'nowrap';\n            }\n\n            createStartArea() {\n                const startArea = document.createElement('div');\n                startArea.style.display = 'flex';\n                startArea.style.width = '100%';\n                startArea.style.gap = '10px';\n                startArea.style.flexDirection = 'column';\n                startArea.appendChild(this.name);\n                startArea.appendChild(this.description);\n                return startArea;\n            }\n\n            createEndArea() {\n                const endArea = document.createElement('div');\n                endArea.style.display = 'flex';\n                endArea.style.flexDirection = 'column';\n                endArea.style.alignItems = 'end';\n                endArea.style.alignSelf = 'end';\n                endArea.style.width = '50%';\n                endArea.appendChild(this.mode);\n                return endArea;\n            }\n\n            appendElements(startArea, endArea) {\n                this.appendChild(this.image);\n                this.appendChild(startArea);\n                this.appendChild(endArea);\n            }\n        }\n\n        class CategoryComponent extends StyledComponent {\n            constructor(styles = {}, items = []) {\n                super(document.createElement('div'), {\n                    display: 'flex',\n                    justifyContent: 'center',\n                    alignItems: 'center',\n                    flexDirection: 'column',\n                    textAlign: 'center',\n                    padding: '1px',\n                    width: '100%',\n                    ...styles\n                });\n\n                this.items = items;\n                this.name = document.createElement('span');\n                this.setNameStyles();\n\n                this.initialize();\n                this.setItems(items);\n            }\n\n            setNameStyles() {\n                this.name.style.width = '100%';\n                this.name.style.borderRadius = '50px';\n                this.name.style.fontSize = '16px'\n                this.name.style.fontFamily = 'Verdana';\n                this.name.style.color = '#b0a8ffff';\n                this.name.style.background = 'rgba(187, 132, 255, 0.13)';\n                this.name.style.padding = '5px';\n                this.name.style.fontWeight = 'bold';\n            }\n\n            setName(value) {\n                this.name.innerHTML = value;\n            }\n\n            setItems(items) {\n                items.forEach(item => this.append(item));\n            }\n\n            initialize() {\n                this.appendChild(this.name);\n            }\n        }\n\n        class ConfigBodyComponent extends DialogBodyComponent {\n            constructor(items) {\n                super({\n                    flexDirection: 'column',\n                    gap: '15px',\n                    maxHeight: '80vh',\n                    overflowY: 'auto'\n                });\n                items.forEach(item => this.append(item));\n            }\n        }\n\n        class LoggerItemComponent extends StyledComponent {\n            constructor(styles = {}, message) {\n                super(document.createElement('span'), {\n                    fontFamily: 'monospace',\n                    width: '100%',\n                    fontSize: '15px',\n                    color: LOGGER_TEXT_COLOR,\n                    ...styles,\n                });\n\n                this.element.innerHTML = message\n            }\n        }\n\n        class LoggerBodyComponent extends DialogBodyComponent {\n            constructor(styles = {}, items = []) {\n                super({\n                    flexDirection: 'column',\n                    maxHeight: '65vh',\n                    overflowY: 'auto',\n                    width: '100%',\n                    ...styles,\n                });\n\n                this.setItems(items);\n            }\n\n            setItems(items) {\n                this.element.innerHTML = '';\n                items.forEach(item => this.append(item));\n                this.scrollDown();\n            }\n\n            scrollDown() {\n                this.element.scrollTop = this.element.scrollHeight;\n            }\n        }\n\n        class CheckUserBodyComponent extends DialogBodyComponent {\n            constructor(data = {}) {\n                super()\n\n                const component = new StyledComponent(document.createElement('div'), {\n                    display: 'flex',\n                    flexDirection: 'column',\n                    color: '#b0a8ffff',\n                    fontFamily: 'Verdana',\n                    gap: '2px',\n                    textAlign: 'center',\n                    width: '100%',\n                });\n                component.element.innerHTML = `\n                    <span style=\"color: ${CHECKUSER_TEXT_COLOR}\">👤Nome de usuario: ${data.username}</span>\n                    <span style=\"color: ${CHECKUSER_TEXT_COLOR}\">📆Expira em: ${data.expiration_date}</span>\n                    <span style=\"color: ${CHECKUSER_TEXT_COLOR}\">📆Dias restantes: ${data.expiration_days}</span>\n                    <span style=\"color: ${CHECKUSER_TEXT_COLOR}\">🚫Conexoes: ${data.count_connections}|${data.limit_connections}</span>\n                `\n\n                this.append(component)\n            }\n        }\n\n        class VpnStateComponent extends StyledComponent {\n            constructor(style = {}) {\n                super(document.createElement('span'), {\n                    fontSize: '1.5tem',\n                    fontFamily: 'Verdana',\n                    fontWeight: 'bold',\n                    color: VPN_STATE_TEXT_COLOR,\n                    marginTop: '2rem',\n                    ...style,\n                })\n\n                this.setState('DISCONNECTED')\n            }\n\n            setState(state) {\n                this.element.innerHTML = state\n            }\n        }\n\n        class LocalIPComponent extends StyledComponent {\n            constructor(styles = {}) {\n                super(document.createElement('span'), {\n                    position: 'absolute',\n                    fontSize: '1rem',\n                    fontFamily: 'Verdana',\n                    color: TEXT_COLOR,\n                    top: `${totalTopValue}px`,\n                    left: '10px',\n                    display: 'flex',                  // Adicionando display: flex para ativar o flexbox\n                    justifyContent: 'center',         // Centralizar horizontalmente\n                    alignItems: 'center',             // Centralizar verticalmente\n                    ...styles,\n                });\n\n                this.setIP(window?.DtGetLocalIP?.execute() ?? '127.0.0.1');\n                setInterval(() => {\n                    this.setIP(window?.DtGetLocalIP?.execute() ?? '127.0.0.1');\n                }, 1000);\n            }\n\n            setIP(ip) {\n                this.element.innerHTML = `IP Local: ${ip}`;\n            }\n        }\n\n        const statusBarHeight = window?.DtGetStatusBarHeight?.execute();\n        const extraPixels = 3; // Number of extra pixels you want to add\n        const defaultHeight = 60; // Default height if statusBarHeight is undefined\n\n        const totalTopValue = (statusBarHeight !== undefined ? statusBarHeight : defaultHeight) + extraPixels;\n\n        class NetworkStatsComponent extends StyledComponent {\n            constructor(styles = {}) {\n                super(document.createElement('div'), {\n                    display: 'flex',\n                    position: 'absolute',\n                    gap: '100px',\n                    borderRadius: '10px',\n                    padding: '0',\n                    border: 'none',\n                    color: TEXT_COLOR,\n                    bottom: \"40%\",\n                    left: '50%',\n                    transform: 'translateX(-50%)',\n                    cursor: 'pointer',\n                    ...styles,\n                });\n\n                this.meterDownContainer = this.createMeterContainer();\n                this.meterDownText = this.createMeterText();\n                this.arrowDownShortIcon = new ArrowDownShortIconComponent();\n                this.meterDownContainer.append(this.meterDownText);\n                this.meterDownContainer.append(this.arrowDownShortIcon);\n\n                this.meterUpContainer = this.createMeterContainer();\n                this.meterUpText = this.createMeterText();\n                this.arrowUpShortIcon = new ArrowUpShortIconComponent();\n                this.meterUpContainer.append(this.arrowUpShortIcon);\n                this.meterUpContainer.append(this.meterUpText);\n\n                this.append(this.meterDownContainer);\n                this.append(this.meterUpContainer);\n\n                this.getNetworkDownloadFn = () => window?.DtGetNetworkDownloadBytes?.execute() ?? 0;\n                this.getNetworkUploadFn = () => window?.DtGetNetworkUploadBytes?.execute() ?? 0;\n\n                this.currentNetworkDownload = parseFloat(localStorage.getItem('networkDownload') ?? this.getNetworkDownloadFn());\n                this.currentNetworkUpload = parseFloat(localStorage.getItem('networkUpload') ?? this.getNetworkUploadFn());\n\n                localStorage.setItem('networkDownload', this.currentNetworkDownload);\n                localStorage.setItem('networkUpload', this.currentNetworkUpload);\n\n                this.showMeter();\n                setInterval(() => this.showMeter(), 1000);\n            }\n\n            createMeterContainer() {\n                return new StyledComponent(document.createElement('div'), {\n                    display: 'flex',\n                    alignItems: 'center',\n                });\n            }\n\n            createMeterText() {\n                return new StyledComponent(document.createElement('span'), {\n                    fontSize: '1.1rem',\n                    marginLeft: '-5px',\n                    fontFamily: 'Helvetica',\n                    fontWeight: 'bold',\n                    whiteSpace: 'nowrap',\n                    color: '',\n                });\n            }\n\n            formatBytes(bytes) {\n                const sizes = ['B', 'KB', 'MB', 'GB', 'TB'];\n                if (bytes === 0) return '0 B';\n                const i = parseInt(Math.floor(Math.log(bytes) / Math.log(1024)));\n                return (bytes / Math.pow(1024, i)).toPrecision(3) + ' ' + sizes[i];\n            }\n\n            showMeter() {\n                const newNetworkDownload = this.getNetworkDownloadFn();\n                const newNetworkUpload = this.getNetworkUploadFn();\n\n                if (!isNaN(newNetworkDownload) && !isNaN(newNetworkUpload)) {\n                    this.meterDownText.element.innerHTML = this.formatBytes(newNetworkDownload - this.currentNetworkDownload);\n                    this.meterUpText.element.innerHTML = this.formatBytes(newNetworkUpload - this.currentNetworkUpload);\n                }\n            }\n\n        }\n\n        class PingComponent extends StyledComponent {\n            constructor(styles = {}) {\n                super(document.createElement('span'), {\n                    position: 'absolute',\n                    fontSize: '1rem',\n                    fontFamily: 'Helvetica',\n                    fontWeight: 'bold',\n                    whiteSpace: 'nowrap',\n                    top: `${totalTopValue}px`,\n                    right: '10px',\n\n                    ...styles,\n                });\n\n\n                this.startPing();\n            }\n\n            async startPing() {\n                this.setPing(await this.ping());\n                setInterval(async () => this.setPing(await this.ping()), 1000);\n            }\n\n            setPing(ping) {\n                this.element.textContent = `PING: ${ping}ms`;\n\n                const pingValue = parseInt(ping, 10);\n                const color = this.getColorFromPing(pingValue);\n\n                this.setStyles({ color });\n            }\n\n            getColorFromPing(ping) {\n                const pingValue = parseInt(ping, 10);\n                const color = pingValue >= 0 && pingValue <= 50 ? '#00ff00' :\n                    pingValue > 50 && pingValue <= 100 ? '#ffff00' :\n                        '#ff0000';\n                return color;\n            }\n\n            async ping() {\n                const startTime = new Date().getTime();\n                const url = `https://raw.githubusercontent.com/TelksBr/SSH-T-PROJECT-VPN/main/IC/baixados.png?${startTime}`\n\n                try {\n                    const data = await fetch(url)\n                    return new Date().getTime() - startTime;\n                } catch (err) {\n                    console.log(err);\n                    return -1;\n                }\n            }\n        }\n\n        class IframeBodyComponent extends DialogBodyComponent {\n            constructor(styles = {}, url = null) {\n                super({\n                    height: '600px',\n                    ...styles\n                })\n\n                this.iframeElement = new StyledComponent(document.createElement('iframe'), {\n                    width: '100%',\n                    border: 'none',\n                    borderRadius: '5px'\n                })\n\n                this.setUrl(url)\n                this.append(this.iframeElement)\n            }\n\n            setUrl(url) {\n                this.iframeElement.element.src = url\n            }\n        }\n\n        class IframeServerBodyComponent extends DialogBodyComponent {\n            constructor(styles = {}, url = null) {\n                super({\n                    height: '700px',\n                    ...styles\n                })\n\n                this.iframeElement = new StyledComponent(document.createElement('iframe'), {\n                    width: '100%',\n                    border: 'none',\n                    borderRadius: '5px',\n                    background: ''\n                })\n\n                this.setUrl(url)\n                this.append(this.iframeElement)\n            }\n\n            setUrl(url) {\n                this.iframeElement.element.src = url\n            }\n        }\n\n        class CleanAppMessageBodyComponent extends DialogBodyComponent {\n            constructor(styles = {}, url = null) {\n                super({\n                    height: 'auto',\n                    ...styles\n                })\n\n                this.spanComponent = new StyledComponent(document.createElement('span'), {\n                    fontSize: '16px',\n                    fontFamily: 'Helvetica',\n                    fontWeight: 'bold',\n                    color: TEXT_COLOR,\n                })\n\n                this.spanComponent.element.innerHTML = 'Você gostaria de limpar os dados do aplicativo? Por favor, esteja ciente de que essa ação resultará na remoção permanente de todas as informações armazenadas. Você tem certeza de que deseja prosseguir com essa operação?'\n\n                this.append(this.spanComponent)\n            }\n        }\n\n\n        class StyledButtonComponent extends StyledComponent {\n            constructor(text, styles = {}) {\n                super(document.createElement('button'), {\n                    width: '100%',\n                    borderRadius: '5px',\n                    padding: '10px',\n                    border: 'none',\n                    color: TEXT_COLOR,\n                    background: BUTTON_BACKGROUND_COLOR,\n                    boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',\n                    cursor: 'pointer',\n                    filter: 'drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5))',\n                    ...styles\n                });\n\n                this.textComponent = new StyledComponent(document.createElement('span'), {\n                    fontSize: '16px',\n                    fontWeight: 'bold',\n                });\n\n                this.textComponent.element.innerHTML = text;\n                this.appendChild(this.textComponent);\n            }\n        }\n\n        class ButtonDonateComponent extends StyledButtonComponent {\n            constructor(styles = {}) {\n                super('COMPRAR', styles);\n                this.addEventListener('click', () => window?.DtStartWebViewActivity?.execute(PREMIUM_URL))\n            }\n        }\n\n        class ButtonApnSettingsComponent extends StyledButtonComponent {\n            constructor(styles = {}) {\n                super('APN', styles);\n\n                this.addEventListener('click', () => window?.DtStartApnActivity?.execute())\n            }\n        }\n\n        class ButtonTermsComponent extends StyledButtonComponent {\n            constructor(styles = {}) {\n                super('TERMOS', styles);\n\n                this.addEventListener('click', () => {\n                    window?.DtStartWebViewActivity?.execute(TERMS_URL)\n                })\n            }\n        }\n\n        class ButtonServersComponent extends StyledButtonComponent {\n            constructor(styles = {}) {\n                super('SERVIDORES', styles);\n\n                this.addEventListener('click', () => {\n                    window?.DtStartWebViewActivity?.execute(SERVER_URL)\n                })\n            }\n        }\n\n        class ButtonTutoriasComponent extends StyledButtonComponent {\n            constructor(styles = {}) {\n                super('TUTORIAIS', styles);\n\n                this.addEventListener('click', () => {\n                    window?.DtStartWebViewActivity?.execute(TUTO_URL)\n                })\n            }\n        }\n\n        class IframeServersButtonComponent extends StyledButtonComponent {\n            constructor(styles = {}) {\n                super('SERVIDORES', styles);\n\n                this.addEventListener('click', () => {\n                    const dialog = new DialogComponent();\n                    const content = new DialogContentComponent();\n                    const header = new DialogHeaderComponent();\n                    header.setTitleText('SSHT SERVERS:');\n                    header.setCloseButtonClickListener(() => dialog.close());\n\n                    const body = new IframeServerBodyComponent({}, SERVER_URL);\n                    content.setHeader(header);\n                    content.setBody(body);\n                    dialog.setOnCloseEvent(() => body.setUrl(''));\n                    dialog.setContent(content);\n                    dialog.show();\n                });\n            }\n        }\n\n\n        class ButtonHostPotComponent extends StyledButtonComponent {\n            constructor(styles = {}) {\n                super('HOTSPOT', styles);\n\n                // Flag para controlar o estado do hotspot\n                this.hotSpotRunning = false;\n\n                this.addEventListener('click', () => {\n                    // Função para iniciar o hotspot\n                    const startHotSpot = () => {\n                        DtStartHotSpotService.execute();\n                        this.textContent = 'HOTSPOT';\n                        this.hotSpotRunning = true;\n                    };\n\n                    // Função para parar o hotspot\n                    const stopHotSpot = () => {\n                        DtStopHotSpotService.execute();\n                        this.textContent = 'HOTSPOT';\n                        this.hotSpotRunning = false;\n                    };\n\n                    // Função para alternar o estado do hotspot\n                    const toggleHotSpot = () => {\n                        this.hotSpotRunning ? stopHotSpot() : startHotSpot();\n                    };\n\n                    // Chama a função para alternar o estado do hotspot\n                    toggleHotSpot();\n                });\n            }\n        }\n\n\n        const rootComponent = new AppComponent(document.querySelector('#root'), { background: teste });\n        rootComponent.append(new LocalIPComponent());\n        // rootComponent.append(new PingComponent());\n        rootComponent.append(new NetworkStatsComponent());\n\n\n        const cardComponent = new CardComponent({\n            position: 'absolute',\n            bottom: '45%',\n            background: 'transparent',\n            boxShadow: 'none',\n            filter: 'drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5))',\n        })\n\n        const configInputGroup = new InputGroupComponent({ cursor: 'pointer', background: INPUT_COLOR });\n        configInputGroup.addEventListener('click', () => {\n            const mock = '[{\"sorter\":6,\"color\":\"#6D08041C\",\"name\":\"CONFIG\",\"id\":1393,\"items\":[{\"mode\":\"V2RAY - VLESS\",\"sorter\":4,\"tlsVersion\":\"TLSv1.2\",\"name\":\"CONFIG 01\",\"icon\":\"https://cdn-icons-png.flaticon.com/512/8187/8187143.png\",\"id\":11803,\"status\":\"ACTIVE\"},{\"mode\":\"SSH_DIRECT\",\"sorter\":2,\"tlsVersion\":\"TLSv1.2\",\"name\":\"CONFIG 02\",\"icon\":\"https://cdn-icons-png.flaticon.com/512/8187/8187143.png\",\"id\":28627,\"status\":\"ACTIVE\"},{\"mode\":\"OVPN_PROXY\",\"sorter\":23,\"tlsVersion\":\"TLSv1.2\",\"name\":\"CONFIG 03\",\"icon\":\"https://cdn-icons-png.flaticon.com/512/8187/8187143.png\",\"id\":30001,\"status\":\"ACTIVE\"}]},{\"sorter\":2,\"color\":\"#6D08041C\",\"name\":\"CONFIG 2\",\"id\":1846,\"items\":[{\"mode\":\"SSH_PROXY\",\"sorter\":1,\"tlsVersion\":\"TLSv1.2\",\"name\":\"CONFIG 01\",\"icon\":\"https://cdn-icons-png.flaticon.com/512/8187/8187143.png\",\"id\":26295,\"status\":\"ACTIVE\"}]},{\"sorter\":4,\"color\":\"#80000000\",\"name\":\"CONFIG 3\",\"id\":3310,\"items\":[{\"mode\":\"SSH_PROXY\",\"sorter\":1,\"tlsVersion\":\"TLSv1.2\",\"name\":\"CONFIG. TEST\",\"icon\":\"https://cdn-icons-png.flaticon.com/512/8187/8187143.png\",\"id\":29997,\"status\":\"ACTIVE\"},{\"mode\":\"OVPN_PROXY\",\"sorter\":1,\"tlsVersion\":\"TLSv1.2\",\"name\":\"CONFIG. TEST 2\",\"icon\":\"https://cdn-icons-png.flaticon.com/512/8187/8187143.png\",\"id\":29998,\"status\":\"ACTIVE\"}]}]'\n            const items = JSON.parse(window?.DtGetConfigs?.execute() || mock)\n            items.sort((a, b) => a.sorter - b.sorter)\n            items.forEach(item => item.items.sort((a, b) => a.sorter - b.sorter))\n\n            const dialogComponent = new DialogComponent()\n            const dialogContentComponent = new DialogContentComponent()\n\n            const dialogHeaderComponent = new DialogHeaderComponent()\n            dialogHeaderComponent.setTitleText('CONFIGURAÇÕES')\n            dialogHeaderComponent.setCloseButtonClickListener(() => dialogComponent.close())\n\n            const configBodyComponent = new ConfigBodyComponent(items.map(item => {\n                const category = new CategoryComponent()\n                category.setName(item.name)\n                category.setItems(item.items.map(item => {\n                    const config = new ConfigComponent()\n                    config.setName(item.name)\n                    config.setDescription(item.description ?? '')\n                    config.setMode(item.mode)\n                    config.setImage(item.icon)\n                    config.addEventListener('click', () => {\n                        window?.DtSetConfig?.execute(item.id)\n                        dialogComponent.close()\n                    })\n                    return config\n                }))\n                return category\n            }))\n\n            dialogContentComponent.setHeader(dialogHeaderComponent)\n            dialogContentComponent.setBody(configBodyComponent)\n            dialogComponent.setContent(dialogContentComponent)\n            dialogComponent.show()\n        })\n        cardComponent.append(configInputGroup)\n\n        const arrowDownIconComponent = new ArrowDownIconComponent()\n        const networkIconComponent = new NetworkIconComponent()\n        const configInput = new InputText({ cursor: 'pointer' })\n        configInput.setEnabled(false)\n        configInput.setPlaceholder('SELECIONE UMA CONFIG.')\n        configInput.setValue(JSON.parse(window?.DtGetDefaultConfig?.execute() ?? '{}').name ?? '')\n        configInputGroup.append(networkIconComponent, configInput, arrowDownIconComponent)\n\n        const userPassContainer = new StyledComponent(document.createElement('div'), {\n            width: '100%',\n            display: 'flex',\n            gap: '5px',\n        })\n        cardComponent.append(userPassContainer)\n\n        const usernameGroupComponent = new InputGroupComponent({ background: INPUT_COLOR });\n        const personIconComponent = new PersonIconComponent()\n        const usernameInput = new InputText()\n        usernameInput.setPlaceholder('Nome de usuario')\n        usernameInput.setValue(window?.DtUsername?.get() ?? '')\n        usernameInput.setOnInputListener(() => { window?.DtUsername?.set(usernameInput.value) })\n        usernameGroupComponent.append(personIconComponent, usernameInput)\n        userPassContainer.append(usernameGroupComponent)\n\n        const passwordGroupComponent = new InputGroupComponent({ background: INPUT_COLOR });\n        const lockIconComponent = new LockIconComponent()\n        const passwordInput = new InputPassword()\n        const eyeIconComponent = new EyeIconComponent()\n        eyeIconComponent.addEventListener('click', () => { passwordInput.setShowing(!passwordInput.isShowing) })\n        passwordInput.setPlaceholder('Senha')\n        passwordInput.setValue(window?.DtPassword?.get() ?? '')\n        passwordInput.setOnInputListener(() => { window?.DtPassword?.set(passwordInput.value) })\n        passwordGroupComponent.append(lockIconComponent, passwordInput, eyeIconComponent)\n        userPassContainer.append(passwordGroupComponent)\n\n        const v2rayUuidGroupComponent = new InputGroupComponent({ background: INPUT_COLOR });\n        const v2rayLockIconComponent = new LockIconComponent();\n        const v2rayUuidInput = new InputPassword()\n        v2rayUuidInput.setPlaceholder('V2Ray UUID')\n        v2rayUuidInput.setValue(window?.DtUuid?.get() ?? '')\n        v2rayUuidInput.setOnInputListener(() => { window?.DtUuid?.set(v2rayUuidInput.value) })\n        v2rayUuidGroupComponent.append(v2rayLockIconComponent, v2rayUuidInput)\n        cardComponent.append(v2rayUuidGroupComponent)\n\n        const buttonAndStateContainer = new StyledComponent(document.createElement('div'), {\n            display: 'flex',\n            flexDirection: 'column',\n            alignItems: 'center',\n            position: 'absolute',\n            top: '10%',\n        })\n\n        const startOrStopButtonComponent = new PowerIconComponent()\n        startOrStopButtonComponent.addEventListener('click', () => {\n            if (DtGetVpnState.execute() != 'DISCONNECTED') {\n                DtExecuteVpnStop.execute()\n            } else {\n                DtExecuteVpnStart.execute()\n            }\n        })\n        buttonAndStateContainer.append(startOrStopButtonComponent)\n\n        const vpnStateComponent = new VpnStateComponent()\n        buttonAndStateContainer.append(vpnStateComponent)\n\n        const cardToolsComponent = new CardComponent({\n            flexDirection: 'row',\n            justifyContent: 'space-between',\n            position: 'absolute',\n            bottom: '5%',\n            background: 'transparent',\n            boxShadow: 'none',\n        })\n\n        const calanderIconComponent = new CalanderIconComponent()\n        calanderIconComponent.addEventListener('click', () => window?.DtStartCheckUser?.execute())\n        cardToolsComponent.append(calanderIconComponent)\n\n        const dialogComponent = new DialogComponent()\n        const dialogContentComponent = new DialogContentComponent()\n        const dialogHeaderComponent = new DialogHeaderComponent()\n        const dialogFooterComponent = new DialogFooterComponent()\n        const loggerBodyComponent = new LoggerBodyComponent({})\n\n        dialogHeaderComponent.setTitleText('REGISTRO')\n        dialogHeaderComponent.setCloseButtonClickListener(() => dialogComponent.close())\n\n        dialogFooterComponent.addButton(new DialogFooterButtonComponent(\n            'LIMPAR',\n            () => window?.DtClearLogs?.execute()\n        ))\n        dialogFooterComponent.addButton(new DialogFooterButtonComponent(\n            'FECHAR',\n            () => dialogComponent.close()\n        ))\n\n        dialogContentComponent.setHeader(dialogHeaderComponent)\n        dialogContentComponent.setBody(loggerBodyComponent)\n        dialogContentComponent.setFooter(dialogFooterComponent)\n\n        dialogComponent.setContent(dialogContentComponent)\n\n        const loggerIconComponent = new LoggerIconComponent()\n        loggerIconComponent.addEventListener('click', () => dialogComponent.show())\n        cardToolsComponent.append(loggerIconComponent)\n\n        const arrowRepeatIconComponent = new ArrowRepeatIconComponent()\n        arrowRepeatIconComponent.addEventListener('click', () => window?.DtStartAppUpdate?.execute());\n        cardToolsComponent.append(arrowRepeatIconComponent)\n\n        const batteryIconComponent = new BatteryIconComponent()\n        batteryIconComponent.addEventListener('click', () => window?.DtIgnoreBatteryOptimizations?.execute());\n        cardToolsComponent.append(batteryIconComponent)\n\n        const speedMeterComponent = new SpeedMeterIconComponent()\n        speedMeterComponent.addEventListener('click', () => {\n            window?.DtStartWebViewActivity?.execute(SPEEDTEST_URL)\n        })\n        cardToolsComponent.append(speedMeterComponent)\n\n        const trashIconComponent = new TrashIconComponent()\n        trashIconComponent.addEventListener('click', () => {\n            const dialog = new DialogComponent()\n            const content = new DialogContentComponent()\n            const header = new DialogHeaderComponent()\n            const footer = new DialogFooterComponent()\n            footer.addButton(new DialogFooterButtonComponent('NÃO', () => dialog.close()))\n            footer.addButton(new DialogFooterButtonComponent('SIM', () => window?.DtCleanApp?.execute()))\n\n            header.setTitleText('LIMPAR DADOS')\n            header.setCloseButtonClickListener(() => dialog.close())\n\n            content.setHeader(header)\n            content.setBody(new CleanAppMessageBodyComponent())\n            content.setFooter(footer)\n\n            dialog.setContent(content)\n            dialog.show()\n        })\n        cardToolsComponent.append(trashIconComponent)\n\n        const buttonsCard = new CardComponent({\n            flexDirection: 'row',\n            justifyContent: 'space-between',\n            position: 'absolute',\n            bottom: '13%',\n            background: 'transparent',\n            boxShadow: 'none',\n        })\n\n        const buttonHostPotCard = new CardComponent({\n            flexDirection: 'row',\n            justifyContent: 'space-between',\n            position: 'absolute',\n            bottom: '25%',\n            background: 'transparent',\n            boxShadow: 'none',\n        })\n\n        const buttonServerCard = new CardComponent({\n            flexDirection: 'row',\n            justifyContent: 'space-between',\n            position: 'absolute',\n            bottom: '20%',\n            background: 'transparent',\n            boxShadow: 'none',\n        })\n\n\n        buttonsCard.append(new ButtonDonateComponent())\n        buttonsCard.append(new ButtonApnSettingsComponent())\n        buttonsCard.append(new ButtonTermsComponent())\n        buttonHostPotCard.append(new ButtonHostPotComponent({\n            color: '#b0a8ffff'\n        }));\n        buttonServerCard.append(new ButtonServersComponent())\n        buttonServerCard.append(new ButtonTutoriasComponent())\n\n        rootComponent.append(buttonAndStateContainer)\n        rootComponent.append(cardComponent)\n        rootComponent.append(cardToolsComponent)\n        rootComponent.append(buttonsCard)\n        rootComponent.append(buttonHostPotCard)\n        rootComponent.append(buttonServerCard)\n\n\n        const dtCheckUserModelListener = model => {\n            const data = JSON.parse(model ?? `{\"username\": \"test\"}`)\n            const dialogComponent = new DialogComponent()\n            const dialogContentComponent = new DialogContentComponent()\n\n            const dialogHeaderComponent = new DialogHeaderComponent()\n            dialogHeaderComponent.setTitleText(`📆 Olá, ${data.username}`)\n\n            dialogHeaderComponent.setCloseButtonClickListener(() => dialogComponent.close())\n            dialogContentComponent.setHeader(dialogHeaderComponent)\n\n            dialogContentComponent.setBody(new CheckUserBodyComponent(data))\n            dialogComponent.setContent(dialogContentComponent)\n            dialogComponent.show()\n        }\n\n        const dtConfigClickListener = () => {\n            const data = JSON.parse(window?.DtGetDefaultConfig?.execute() ?? '{\"auth\":{\"password\": \"\"}, \"mode\": \"v2ra\"}')\n            configInput.setValue(data.name ?? '')\n\n            const isV2ray = data?.mode?.toLowerCase()?.startsWith('v2ray');\n\n            usernameGroupComponent.setStyles({\n                display: isV2ray || data?.auth?.username ? 'none' : 'flex',\n            })\n\n            passwordGroupComponent.setStyles({\n                display: isV2ray || data?.auth?.password ? 'none' : 'flex',\n            })\n\n            v2rayUuidGroupComponent.setStyles({\n                display: !isV2ray || data?.auth?.v2ray_uuid ? 'none' : 'flex',\n            })\n        }\n\n        const dtVpnStateListener = state => {\n            const isRunning = state != 'DISCONNECTED';\n\n            vpnStateComponent.setState((window?.DtTranslateText?.execute('LBL_STATE_' + state) ?? 'UNKNOWN').toUpperCase())\n\n            usernameInput.setEnabled(!isRunning)\n            passwordInput.setEnabled(!isRunning)\n        }\n\n        const dtOnNewLogListener = () => {\n            const mock = [];\n            for (let i = 0; i < 300; i++) {\n                mock.push({ 'TIME': 'MESSAGE ' + i })\n            }\n            const data = JSON.parse(window?.DtGetLogs?.execute() ?? JSON.stringify(mock))\n            loggerBodyComponent.setItems(data.map(log => {\n                return new LoggerItemComponent({}, Object.keys(log)[0] + ' ' + log[Object.keys(log)])\n            }))\n        }\n\n        dtVpnStateListener(window?.DtGetVpnState?.execute() ?? 'DISCONNECTED')\n        dtOnNewLogListener()\n\n        dtConfigClickListener()\n\n        function createElements() {\n            const container = document.createElement(\"div\");\n            container.classList.add(\"container\");\n            container.style.position = 'absolute';\n\n            const content = document.createElement(\"div\");\n            content.classList.add(\"content\");\n\n            const background = document.createElement(\"div\");\n\n            const svg = document.createElementNS(\"http://www.w3.org/2000/svg\", \"svg\");\n            svg.setAttribute(\"width\", \"16\");\n            svg.setAttribute(\"height\", \"16\");\n            svg.setAttribute(\"fill\", \"currentColor\");\n            svg.classList.add(\"bi\", \"bi-git\");\n            svg.setAttribute(\"viewBox\", \"0 0 16 16\");\n\n            const path = document.createElementNS(\"http://www.w3.org/2000/svg\", \"path\");\n            path.setAttribute(\"d\", \"M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457\");\n            svg.appendChild(path);\n\n            const span = document.createElement(\"span\");\n            span.classList.add(\"ms-2\");\n            span.setAttribute(\"id\", \"version\");\n            span.textContent = ' 1.1';\n\n            // Montando a estrutura\n            background.appendChild(svg);\n            background.appendChild(span);\n            content.appendChild(background);\n            container.appendChild(content);\n\n            // Aplicando estilos\n            container.style.fontSize = '1rem';\n            container.style.fontFamily = 'Verdana';\n            container.style.color = TEXT_COLOR;\n            const statusBarHeight = window?.DtGetStatusBarHeight?.execute();\n            const extraPixels = 0; // Number of extra pixels you want to add\n            const defaultHeight = 60; // Default height if statusBarHeight is undefined\n\n            const totalTopValue = (statusBarHeight !== undefined ? statusBarHeight : defaultHeight) + extraPixels;\n\n            container.style.top = `${totalTopValue}px`;\n\n            container.style.right = '10px';\n\n\n\n            // Adicionando ao DOM\n            document.body.appendChild(container);\n\n            // Atualizar a versão a cada 2 segundos\n            setInterval(updateVersion, 2000);\n        }\n\n        // Função para atualizar a versão\n        function updateVersion() {\n            const versionElement = document.getElementById('version');\n            const version = window?.DtGetLocalConfigVersion?.execute() ?? ' 1.0';\n            versionElement.textContent = version;\n        }\n\n        // Chamar a função para criar elementos e configurar a versão inicial\n        createElements();\n        updateVersion();\n\n\n\n    </script>\n</body>\n\n</html>",
+        "type": "HTML",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 3823,
         "label": "ANDROID WEBVIEW (POR SUA CONTA E RISCO)",
         "name": "APP_SUPPORT_BUTTON",
         "value": null,
-        "type": "HTML"
-        },
-        
-       
-        {
-            "id": 3824,
-            "label": "PAGINA WEBVIEW (POR SUA CONTA E RISCO)",
-            "name": "APP_WEB_VIEW",
-            "type": "HTML",
-            "value": null,
-            "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
-        }
-    ]
-}
+        "type": "HTML",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    },
+    {
+        "id": 3824,
+        "label": "PAGINA WEBVIEW (POR SUA CONTA E RISCO)",
+        "name": "APP_WEB_VIEW",
+        "value": "<!DOCTYPE html>\n<html>\n<head>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" charset=\"UTF-8\">\n  <title>SSH T PROJECT PREMIUM</title>\n  <style>\n    * {\n      margin: 0;\n      padding: 0;\n      box-sizing: border-box;\n      font-family: sans-serif;\n    }\n\n    body {\n      animation: fade-in 1s ease-in-out;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n      width: 100%;\n      height: 100%;\n      background-color: #14142c;\n    }\n\n    .container {\n      margin: 7px;\n      padding: 10px;\n      border: 1px solid #b0a8ffff;\n      border-radius: 5px;\n      background-color: #14142c;\n      width: 70%;\n      max-width: 90%;\n      min-width: 250px;\n      text-align: center;\n      border-radius: 5px;\n      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;\n      color: #b0a8ffff;\n    }\n\n    h1 {\n      color: #b0a8ffff;\n      text-align: center;\n      padding: 20px;\n    }\n\n    .plan {\n      margin: 20px;\n      padding: 20px;\n      border-radius: 5px;\n      background-color: #1F1C3A;\n      text-align: center;\n      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;\n    }\n\n    .plan h2 {\n      color: #b0a8ffff;\n    }\n\n    .price {\n      font-size: 24px;\n      margin-bottom: 10px;\n    }\n\n    .subscribe-button {\n      margin: 0 auto;\n      display: block;\n      background-color: rgba(177, 168, 255, 0.788);\n      color: #241f47e0;\n      border: none;\n      padding: 0.5rem 4rem;\n      border-radius: 5px;\n      cursor: pointer;\n      transition: background-color 0.3s ease, color 0.3s ease;\n    }\n  </style>\n</head>\n<body>\n  <h1>SSH T PROJECT PREMIUM</h1>\n  <div class=\"container\">\n    <div class=\"plan\">\n      <h2>30 DIAS - 1 CONEXÃO</h2>\n      <p class=\"price\">R$: 4,00</p>\n       <a class=\"subscribe-button\" href=\"https://api.whatsapp.com/send?phone=5513981664732&text=Quero%20assinar%20o%20plano%20de%2030%20DIAS%20-%201%20CONEX%C3%83O%0ARS%3A%204%2C00\">Assinar</a>\n    </div>\n\n    <div class=\"plan\">\n      <h2>60 DIAS - 1 CONEXÃO</h2>\n      <p class=\"price\">R$: 6,00</p>\n      <a class=\"subscribe-button\" href=\"https://api.whatsapp.com/send?phone=5513981664732&text=Quero%20assinar%20o%20plano%20de%2060%20DIAS%20-%201%20CONEX%C3%83O%0ARS%3A%206%2C00\">Assinar</a>\n    </div>\n\n    <div class=\"plan\">\n      <h2>90 DIAS - 1 CONEXÃO</h2>\n      <p class=\"price\">R$: 8,00</p>\n      <a class=\"subscribe-button\" href=\"https://api.whatsapp.com/send?phone=5513981664732&text=Quero%20assinar%20o%20plano%20de%2090%20DIAS%20-%201%20CONEX%C3%83O%0ARS%3A%208%2C00\">Assinar</a>\n    </div>\n\n    <div class=\"plan\">\n      <h2>30 DIAS - 2  CONEXÕES</h2>\n      <p class=\"price\">R$: 6,00</p>\n      <a class=\"subscribe-button\" href=\"https://api.whatsapp.com/send?phone=5513981664732&text=Quero%20assinar%20o%20plano%20de%2030%20DIAS%20-%202%20CONEX%C3%83O%0ARS%3A%206%2C00\">Assinar</a>\n    </div>\n\n    <div class=\"plan\">\n      <h2>60 DIAS - 2 CONEXÕES</h2>\n      <p class=\"price\">R$: 8,00</p>\n      <a class=\"subscribe-button\" href=\"https://api.whatsapp.com/send?phone=5513981664732&text=Quero%20assinar%20o%20plano%20de%2060%20DIAS%20-%202%20CONEX%C3%83O%0ARS%3A%208%2C00\">Assinar</a>\n    </div>\n\n    <div class=\"plan\">\n      <h2>90 DIAS - 2 CONEXÕES</h2>\n      <p class=\"price\">R$: 10,00</p>\n      <a class=\"subscribe-button\" href=\"https://api.whatsapp.com/send?phone=5513981664732&text=Quero%20assinar%20o%20plano%20de%2090%20DIAS%20-%202%20CONEX%C3%83O%0ARS%3A%2010%2C00\">Assinar</a>\n    </div>\n  </div>\n</body>\n\n\n</html>",
+        "type": "HTML",
+        "status": "ACTIVE",
+        "user_id": "83615944-f09e-4f34-8cc6-96cc5fd99133"
+    }
+]
